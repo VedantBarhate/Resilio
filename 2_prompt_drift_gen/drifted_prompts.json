@@ -1,0 +1,5148 @@
+{
+  "metadata": {
+    "project": "Resolio",
+    "description": "Drift-augmented prompt dataset with 5 levels x 3 variants per base prompt (STRONGER degradation)",
+    "total_base_prompts": 40,
+    "drift_levels": 5,
+    "variants_per_level": 3,
+    "total_drifted_prompts": 600,
+    "total_prompts_including_base": 640,
+    "target_similarities": {
+      "L1": "96-99% (mild typos)",
+      "L2": "93-96% (+ no caps/punct)",
+      "L3": "88-93% (+ slang)",
+      "L4": "82-88% (+ structural degradation)",
+      "L5": "75-82% (+ heavy informality, incomplete)"
+    },
+    "drift_level_descriptions": {
+      "L0": "Clean baseline - original prompt unchanged",
+      "L1": "Character-level typos only (~12-24% word error rate)",
+      "L2": "L1 + informal formatting (no caps, punctuation removed)",
+      "L3": "L2 + slang, abbreviations, casual language",
+      "L4": "L3 + structural degradation (word merges, drops, grammar breaks)",
+      "L5": "L4 + heavy informality, content dropped, fragments"
+    }
+  },
+  "prompts": [
+    {
+      "id": "reasoning_1_L0",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-baded planta. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A city is facing frequent power ougages due to riding energy demand. Explain how the government shoukd decide between investing in renewable endrgy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consdr economic, environmental, and long-twrm sustainability factlrs."
+    },
+    {
+      "id": "reasoning_1_L2_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a city is facing frequent power outages due to rising energy demand. explain how the government should decide between investing in rendwable energy infrastructure versus expanding fodsil fuel-based plants. consider economic environmental and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L2_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a city is facing frequent power outages die to rising ebergy demand explain how the government should decide between investing in renewable energy infrastructure versus espanding fossil fuel-based plants consider economic environmental and long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L2_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a city is facing ffequent ppwer outages due to riskng energy demand. explain how the government should decide between investing in renewable eneegy infrastructure versus expanding fossil fuel-based plants. consider economic environmental and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L3_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a city is facing frequent pwr outages due 2 rising energy demand explain how the govt shld decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants consider economic environmental n lngtrm sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L3_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a city is faci frequent power outages dye 2 rising energy demand. explain how the govt should decide between investing in renewable nrgy infrastructure vs expanding fossil fuel-based plants. consider economic environmental n long-term sustainability factprs."
+    },
+    {
+      "id": "reasoning_1_L3_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a city is facing frequent power outages die to rising energy demand xplain how the govt shld decide btwn investing in renewable energy infrastructure versus xpndng fossil fuel-based plnts consider economic, environmental, and long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L4_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "acity isfacing frequentpoe outages due torising energy demand xplnhow teh govt shluld decice btwn investing inrenewable energyinfrastructure vsexpanding fowsil fuel-basedplants consi economicenvironmental andlong-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L4_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a cityis facing frequent poweroutages due 2 rising energy demandxplain how the government shlddecide betweeninvest renewable enerhy infrastructureversus expanding fosz fuelba plantsconsider econokic nvrnmntl and longtermsustainability fact"
+    },
+    {
+      "id": "reasoning_1_L4_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a city is facing frequent power outages dueto rusing energydmnd xplain hiw thegovt shlddecide btwninvrsting in renewableenergy infrastructurevs expanding fossil fuel-based plants consider economic, environmental,n long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L5_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically acigy isfacing frequent power outagrs due RISINGENER dema explain how thegovernment should decidebetween investing in renewable energy yeah?"
+    },
+    {
+      "id": "reasoning_1_L5_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "hmm acity is facing frequent power OUTAGES due 2 risingener demand XPLAINHLW the government shlddecide between nvstng in??"
+    },
+    {
+      "id": "reasoning_1_L5_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "basically acity is facing frequ poweroutages due TO rising energydemand xplain how tje govwrnmentshld decidebetw investingin RENEWABLE ener thanks"
+    },
+    {
+      "id": "reasoning_2_L0",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A startup with limited funds must choose between spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A startup with limited funds must choose between spending on marketing or imlroving prlduct reliability. Reason through how tihs devision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A startup with limkted funds must choose between spending on markdting or improving product reliability. Reason through hiw this decision should be mase and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A stqrtup with limited funds must choose bwtween spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs aee involved."
+    },
+    {
+      "id": "reasoning_2_L2_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a startup with limited funds must choose between spending on markering or improving product reliability reason through how this decision shld be made abd what trade-offs are involved"
+    },
+    {
+      "id": "reasoning_2_L2_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a sgartup with limited funds must choose between spending on marketing or improving product reliability. reason through how this decision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L2_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a startup with limited funds must choose between spending on marketing or improving product relianility reason thru how this decision should be made and whqt trase-offs are involfed"
+    },
+    {
+      "id": "reasoning_2_L3_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a startup w/ lmtd fjnds must choose between spending on marketing or improving product reliability. reason thru how this decision shld b made adn what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L3_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a startup with limited funds must choose between spending on marketing or improving product reliability. reason thru how tihs decision shld b made and what trade-offs aee involved."
+    },
+    {
+      "id": "reasoning_2_L3_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a startup with lmtd fjnds must chiose between spending on marketing or improving prod reliabi reas through how this decision should be made n what trade-offs ate involvwd."
+    },
+    {
+      "id": "reasoning_2_L4_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a startjpwith limited funds must choose betweenspending on marketing or improving prodict reliability. reason thro howthis decision should b maden wgat trade-offsate involved."
+    },
+    {
+      "id": "reasoning_2_L4_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "astartup w/ limited funds must choose btwnspending on marketing orimproving prdctreliability reason thro hpw this decision shldbe maden what trade-offs r nvlvd"
+    },
+    {
+      "id": "reasoning_2_L4_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a startup w/ limited findsmust cgoose between spndng on marketing orimproving prodjctreliability reason through how this decision shouldbe made and what trade-offs areinvolved"
+    },
+    {
+      "id": "reasoning_2_L5_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright a startup w/limi fundsmust choose between spending on marketing or improving prdct reliability tho"
+    },
+    {
+      "id": "reasoning_2_L5_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "alright a STARTUP with limited funssmust choose btwnspending on marketingor IMPROVING ptod reliability. reason THROUGH HOWTHIS APPRECIATE it"
+    },
+    {
+      "id": "reasoning_2_L5_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "FYI astartup w/ LMTD fundsmuwt choosebetween spehding onmarketing or improving product reliabi reason thru appreciate it"
+    },
+    {
+      "id": "reasoning_3_L0",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how an educational institution should balance between online nd offline teqching methocs after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L2_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain how an educational institution should balance between online and offline teachong methods after the pandemic considering learning outcomes accessibility and costs"
+    },
+    {
+      "id": "reasoning_3_L2_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain how an educational institution shuold balance between online and offline teaching methods after hte pandemic considering learning outcomes accessibility and costz"
+    },
+    {
+      "id": "reasoning_3_L2_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain how an educational institution should balance between online and offline teaching methods after the pandemic considering learning outcomes accessibility and costa."
+    },
+    {
+      "id": "reasoning_3_L3_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "expl how an educational institution shiuld balance btwn online adn offline teaching methods after the panfemic considering lrnng outcomes accessibility and costs"
+    },
+    {
+      "id": "reasoning_3_L3_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "explain how an educational institution shld balance btwn online and offline tchng methods after the pzndemic, considerin learning outcomes, accessibilitt, and costs"
+    },
+    {
+      "id": "reasoning_3_L3_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "esplain hiw an educational institution shld balance between online and offline teaching methods after the pandemic, conskdering learning outcomes, ccssblty n costs"
+    },
+    {
+      "id": "reasoning_3_L4_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "explain how an educational nstttn shldbalance betwden onliand offline teach mthdsaftr the pabdemic, considerin learning outcomes,accessibility, n costs."
+    },
+    {
+      "id": "reasoning_3_L4_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xplain howan educational institu shouldbalance btwn online n offline teaching mthds aftr the pandemic cinsidelearning outcpmesccssblty ncozts"
+    },
+    {
+      "id": "reasoning_3_L4_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain how an educational institution should balance btwn online noffline teaching methods aftr the pandemic, consideringlearning outco accessibility, ancosts."
+    },
+    {
+      "id": "reasoning_3_L5_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "real QUICK explain how aneducational institution shld balancebtwn onlinen offline teachingmethods aftthe pandemicconsidering lol"
+    },
+    {
+      "id": "reasoning_3_L5_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey xplainhow an educational institution shld balancebetween ONLINE n odfline teachin yeah?"
+    },
+    {
+      "id": "reasoning_3_L5_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen explain how an educational institution shldbalance btwn ONLINE n OFFLINE tchng!!"
+    },
+    {
+      "id": "reasoning_4_L0",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and whidh should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A company wants to autokate customer support using Ak. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning prodess behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L2_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a company wants to automate customer support using ai explain the reasoning proceds behind deciding which tasks should be automated and which should remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L2_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a company wznts to autonate customer support using ai explain tge reasoning process behind deciding which tasks should be automated and whcih should remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L2_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a company wants to automate customer support using ai explain the reasoning process behind deciding whivh tasks should be automared and which should remzin human-operated"
+    },
+    {
+      "id": "reasoning_4_L3_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a comp wants 2 automate custo support using ai xpla the reasoning process behind decid whch tasks should be automated n which should remain humanoperated"
+    },
+    {
+      "id": "reasoning_4_L3_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a company wsnts to automate customer support using ai expl the reasoning process behind deciding which tasks shld be automated and which shld remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L3_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a comp wan 2 automate customer support using ai. explain the reasoning process bhnd deciding which tasks should b automated and which shld remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L4_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a company wants 2automate customer support using aiexplain the reasonibg process behinddecidimg which tasks should bautomated n whichshld rekahuman-operated"
+    },
+    {
+      "id": "reasoning_4_L4_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a company wzntsto automatecustomer support using ai xplain the reasoninpeocess behind deciding which tasksshould b automated n whichshld remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L4_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "acompany wan 2automate customer support using ai explain the reasoning prcss behind ddciding whi tasksshould bautoma n which shouldrmn human-operated"
+    },
+    {
+      "id": "reasoning_4_L5_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "lowkey acompany wants 2 automate CUSTOMER support usingau xplain thereasoning PFOCESSBWHIND decidongwhich btw"
+    },
+    {
+      "id": "reasoning_4_L5_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ok so a ckpnywsnts 2ytmt cstmr supp usinai. xplainthe rssnngproc behinddcdng whchtasks shld pls"
+    },
+    {
+      "id": "reasoning_4_L5_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh a COMPANY wants to automate customer sulportusing ai explainthe reasoning process behind deciding which tasks tbh"
+    },
+    {
+      "id": "reasoning_5_L0",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Discuss how a country should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Discuss how a counyry should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Discuss how a country should prioritize spending btwn healthcare an defense during an edonomic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Discuss how a country should prioritize spdnding between healthcare ahd drfense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L2_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "discuss hpw a country should prioritize spenfing between healthcare abd ddfense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L2_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "discuss how a country should prioritize spending between healthcare and dwfense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L2_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "discuss how a countfy should prioritize spending between healthcare and defense during an economic slowdown. justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L3_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "disduss how a country shuold prrtz spending between healthcare and defense during an economic slowdown justify ur reasoning using multiple perspect"
+    },
+    {
+      "id": "reasoning_5_L3_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "discuss how a country shld prioritize spending btwn healthcare and dfns during an economic slowdown justify yojr reasoning sng mltpl perspectives."
+    },
+    {
+      "id": "reasoning_5_L3_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "discuss how a country should prioritize spendin btwn healthcare and defense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "discuss how acoun shldprioritize spending btwn healthcare n defenseduring economic slowdown justify ur reaslning usibgmulti perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "discuss how acountry shld prioritizespendin btwn healthcareand defense duringan economic slowdown jstfy your reasonin uskng multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "dischow a countryshld prioritize spending between hlthcr and dfrns duringan evonomic slowdownjustify your reasonin using multipleperwpectives"
+    },
+    {
+      "id": "reasoning_5_L5_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "HMM dischow a COUNSHOILD prioritize spendingbetween healthcare and defense during an??"
+    },
+    {
+      "id": "reasoning_5_L5_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "REAL quick discuss how A country should prrtz spwndingbtwn healthcaren defense duringan economic thanks"
+    },
+    {
+      "id": "reasoning_5_L5_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "ok so DISCUSS how acountry should priorit spending BETWEENHEALTHCARE n DEFENSE during AN economic tho"
+    },
+    {
+      "id": "reasoning_6_L0",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain hpw a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain how a softwzre team should decide wyether to refactor an exksting system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L2_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain hiw a software teqm should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise"
+    },
+    {
+      "id": "reasoning_6_L2_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "xplain how a software team syould decide whether to refactor an ezisting system or rdbuild it from scratch when performance issues arise"
+    },
+    {
+      "id": "reasoning_6_L2_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain hpw a software team should decide whetehr to refactor an exiating system or rebuild it from scragch when performqnce isdues arise."
+    },
+    {
+      "id": "reasoning_6_L3_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "explqin how a softw team shld deciee whether 2 rwfactor an zstng system or rebuild it from scratch when prfrmnc issues ari"
+    },
+    {
+      "id": "reasoning_6_L3_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain how a software team shld decide whether 2 refactor an existing system or rebu it from scratch when performance issues rs"
+    },
+    {
+      "id": "reasoning_6_L3_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "explain how a software team shld ddd wether to refactor an xstng system or rebuild it from scratch when performance issuds afise"
+    },
+    {
+      "id": "reasoning_6_L4_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplnhow asoftware teamshoud decide whether to refactoran existin system or rebuild it fromscratch when performance issuesarise"
+    },
+    {
+      "id": "reasoning_6_L4_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "explaonhow a software team sgould deci whether 2refactor an existing systemor rebuildit form scratch whenperformance issues rs"
+    },
+    {
+      "id": "reasoning_6_L4_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "xplainhow a software team shld decide whether 2 refactor existing system orrebuild itfrom scratch whenperformance issues ari"
+    },
+    {
+      "id": "reasoning_6_L5_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "lowkey explhow a softwareteam should dcd whetherto refactor an existingsystem orrebuild asap"
+    },
+    {
+      "id": "reasoning_6_L5_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "so like explain HOW a software team should decide WHETHER torefactor an existing system or haha"
+    },
+    {
+      "id": "reasoning_6_L5_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "OK so explain how a softwsreteam SHOULD dcd whether to refactoran existingsystem or rebuild it appreciate it"
+    },
+    {
+      "id": "reasoning_7_L0",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason througt how polivy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A social media platform wants to reduce misinformation without harming free sperch. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L2_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a social media platform wants to reduce misinformation without harming free soeech reason through how policy decisions can be designed to adhieve this balance"
+    },
+    {
+      "id": "reasoning_7_L2_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a social media platform wants to reduce misinformation without harming free speech reason through how policy decisions can be designed to achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L2_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduxe misinformation without harming free speech reason through how policy decisions can be designed to achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L3_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a social media platform wsnts to reduce misinformation w/o harming free speech. reason through how policy decisions can b designed to achieve this blnc"
+    },
+    {
+      "id": "reasoning_7_L3_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a social media platform wants to reduce misinformation with harming free spewch. reqson thru how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L3_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduce misinformation without harming free speech reason through how policy decisions can b dwsigned 2 achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L4_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a social media platform wants to reduce misinformation without harming free spee reason throughhow policy decisions can be designedto achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L4_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a social media platform wants 2reduce misinformation without harming free slee readonthru howpoli decisions can b dwsgnd toachieve this balance."
+    },
+    {
+      "id": "reasoning_7_L4_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduce misinformationwithout harm free speech reasonthrygh how policydecisions can be designedto achiece this balance"
+    },
+    {
+      "id": "reasoning_7_L5_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "ok so a socumed platform wantsto reduce misinformation without harming FREE speexh REASON through how policy decisions right?"
+    },
+    {
+      "id": "reasoning_7_L5_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "honestly a social media platform wants to reduce misinformation w/o harming free speech reas throughhow??"
+    },
+    {
+      "id": "reasoning_7_L5_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "fyi asocial media platform wants to reduce MISINFORMATION w/o hafmin freespeech reasonthru??"
+    },
+    {
+      "id": "reasoning_8_L0",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L1_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how a logistics cpmpany should choose between faster delivery and lower operational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L1_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain how a logistics company should choose between faster delivery and lower operational costs wehn expanding to rural aread."
+    },
+    {
+      "id": "reasoning_8_L1_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explan how a logistics company should choose between fadter delivery and lower opeeational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L2_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas"
+    },
+    {
+      "id": "reasoning_8_L2_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain how a logistics company shoukd choose between faster delivery amd lower operational costs when expanding to rural areaa."
+    },
+    {
+      "id": "reasoning_8_L2_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain how a logistics company shld choose between faster delivery and lower operational costs when expznding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L3_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "explain how a logiatics company should choose btwn faster delivery and lower operational cos when expanding 2 rural areas."
+    },
+    {
+      "id": "reasoning_8_L3_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas"
+    },
+    {
+      "id": "reasoning_8_L3_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "explain how a logistics company shld cjoose btwn faster delivery adn lower prtnl csts wen expanding to rural areaa"
+    },
+    {
+      "id": "reasoning_8_L4_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "explain how alogistics cmpny shoud choobetween fasterdelovery and loweroperational costs when expanding 2 rural areas."
+    },
+    {
+      "id": "reasoning_8_L4_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xplain how a logistics company should choose between faster delivery and lower operational costs when expanfingto rural rs"
+    },
+    {
+      "id": "reasoning_8_L4_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain how a lgstcs companyshld choosebetwedn fawter dlvryn lwr operational costs whenexpanding torural afeas."
+    },
+    {
+      "id": "reasoning_8_L5_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically explain how a logistics company shldchoose betweenfaster delivery n LOWER operational costs ty"
+    },
+    {
+      "id": "reasoning_8_L5_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying explain how a lgstcscompany shldchoose BETWEENFSTR deluvery and lower operational pls"
+    },
+    {
+      "id": "reasoning_8_L5_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm expkhow a logistics companyshould choose btwnfaster delivery and lower right?"
+    },
+    {
+      "id": "reasoning_9_L0",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairness, accuracy, and student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A college plans to intrlduce AI-based grading systems. Explain the reasoning process beyind evakuating faurness, accuracy, amd student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairnesz, accuracy, and student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process bdhind evaluating fairness, accuracy, and stufent trust."
+    },
+    {
+      "id": "reasoning_9_L2_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a college plans to introduce ai-based grading systems. explain the reasoning process behind evaluating fairness accuracy and student trust."
+    },
+    {
+      "id": "reasoning_9_L2_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a college plans to introduce ai-based gfading systems explain the reasoning process behind evaluating fairness accuracy and student trust"
+    },
+    {
+      "id": "reasoning_9_L2_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a college plans to introduce ai-based gradimg systems explain the reasoning process behind evaluating fairness accuracy and student trust"
+    },
+    {
+      "id": "reasoning_9_L3_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a college plans 2 introduce aibased gdng systems explain the reasoning process behind evaluating fairn accuracy and student tryst"
+    },
+    {
+      "id": "reasoning_9_L3_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a college plans 2 introduce aivased grading systems. xplain the reasoning process behihd evaluat fairness accuracy n student trust."
+    },
+    {
+      "id": "reasoning_9_L3_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a college plans to htrdc ai-based grading systems explain the reasoning process behind evaluating fairness accuracy abd student trst"
+    },
+    {
+      "id": "reasoning_9_L4_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "collplans 2 introd ai-based gradsyst ecplain the reasoningprocess behind evaluatingfairn accuracy n student trust"
+    },
+    {
+      "id": "reasoning_9_L4_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a colleteplans to introduce aibased grading systems. xplainthe reasoning process behind evaluatinfairneds adcuracy and student truwt."
+    },
+    {
+      "id": "reasoning_9_L4_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a college plans to introduce ai-based grading systems explain the reasoningprocess bhnd evaluating fairness acxuracy nstudent trust"
+    },
+    {
+      "id": "reasoning_9_L5_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "FYI A college plans 2intrid ai-basedgrading SYSTEMS XPLN the reasoning processbehind btw"
+    },
+    {
+      "id": "reasoning_9_L5_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "quick note acollege plans to introduce ai-based grading systems explain the reasoning thanks"
+    },
+    {
+      "id": "reasoning_9_L5_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh a college plans to introduce ai-based grading systems xplain the reasoning process behind tbh"
+    },
+    {
+      "id": "reasoning_10_L0",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Discuss how an organization shld drcide whether to adopt an emerging techbology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Discuss hiw an organization should decide whether to adopt an emerging technology tat is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L2_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable"
+    },
+    {
+      "id": "reasoning_10_L2_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "discuss how an organization should drcide whether to adolt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L2_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "discuss how an organkzation should decide whetehr to adopt an emerhing technology that is promising but not yet stable"
+    },
+    {
+      "id": "reasoning_10_L3_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "disc how an oeganiza shld decide whether 2 adipt an emerg technology that is promisin bit not yet stable"
+    },
+    {
+      "id": "reasoning_10_L3_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "discuss how an org shld dcd whether to adopt an emerging tech that is promosing but not ywt stable."
+    },
+    {
+      "id": "reasoning_10_L3_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "discuss how an org should decide whether 2 adopt an emerging tech that is promising but not yet stsble"
+    },
+    {
+      "id": "reasoning_10_L4_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "discuss howan org shld decide whether adopt an emerging tech thqt ispromising but not yet stab"
+    },
+    {
+      "id": "reasoning_10_L4_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "discusshow an organization shld decide whether to dpt an emerging technilogy thatis promising but not yet stbl"
+    },
+    {
+      "id": "reasoning_10_L4_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "discuss howan organizationshould decide whet 2 adolt an emergtech that is promising but notyet stable."
+    },
+    {
+      "id": "reasoning_10_L5_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "honestly dischow an org shlddecide whether 2ADOPT an??"
+    },
+    {
+      "id": "reasoning_10_L5_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying DWCSSHOW ANORG shld decide whetherto adoptan emerging tech appreciate IT"
+    },
+    {
+      "id": "reasoning_10_L5_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "yo discuss howan org shld decide whether 2 adopt anemerging tech that pls?"
+    },
+    {
+      "id": "logical_1_L0",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a system where only Managers can approve expendes and Employees can submit requests, explain whether an Employee can indirectly approve thdir own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a system where only Managers csn approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval aythority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L2_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a system where only managers can approve expenses and employees can submit requests explain whether an employee cqn indirectly approve their own expense if managers delegate approval authority. justify your answer logically."
+    },
+    {
+      "id": "logical_1_L2_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a system wgere only managers can approve expenwes abd employees can submit requests explain whether an employee can indirectly approve their own expense if managers delegate approval authority justify your answer logically"
+    },
+    {
+      "id": "logical_1_L2_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a system whete only managers can approve expenses and employees can submit requests explain whethwr an employee can indirectly approve their own exoense if managers delwgate approval authority justify your answer logically"
+    },
+    {
+      "id": "logical_1_L3_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a system whe only managers can approve expenses and employees can submit requdsts xplain whether an employee can indirectly approve their own expense if managers delegate approval authority justify ur ans logically"
+    },
+    {
+      "id": "logical_1_L3_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a system where only managers can approve expenses n employees can submit requests, explain whether an employee can indirectly approve their own expe if managers delegage approval authority justify your ans logically"
+    },
+    {
+      "id": "logical_1_L3_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a system where only managers can approve expenses n employees can submit requests xplain whether an emplo czn indirectly appr their own expense if managers delegate approval authority justify ur nswr logicallu"
+    },
+    {
+      "id": "logical_1_L4_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ina system where onlymanagers can approve expenses and employees can submit requestsexplain whether an employee can indirectly appr theirown expense ifmanagers delegate approvalauthority justify ur nswr logkcally"
+    },
+    {
+      "id": "logical_1_L4_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ina systemwhere only managerscan approveexpenses and employeesczn submit requests xplain whetheran employeecan indirectly approvetheir own expense ifmanagers delegate approval authority justify urans logically"
+    },
+    {
+      "id": "logical_1_L4_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "ina system where onlymanagers canapprove expenses and employees cansugmit reque xplainwhether an employeecan indirectlyapprove theirown expense if managers dpgt approvaltgrty justify ur answer logically"
+    },
+    {
+      "id": "logical_1_L5_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically ina systwm whereonly managers can approveexpenses n employeescan submrqsts xplain whetheran employee can indirectlyapprove??"
+    },
+    {
+      "id": "logical_1_L5_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh ina system where only managerscan approveexpenses andemployees can SUNMREQUESTS, explain whether an employeecan indirectlyappr theirown ty"
+    },
+    {
+      "id": "logical_1_L5_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "fyi ina systemwhere only managers can approveexpenses n employeescan sbmt requests explanwhether an employee canindirectly approvetheir own haha"
+    },
+    {
+      "id": "logical_2_L0",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A rule states that all confidential files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A rule states that all confidential files myst be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be adcessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A rule states that all confidential files muat be encrypted, and all encrypted files requkre authentication. Explain whether a confidential file can ever be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A ryle states that all confidenyial files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can evwr be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L2_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a rule states that aol confidential fkles must be encrypted and all encrypted files require authentication explain whether a confidential file can ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L2_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a rule states that all confidential files must be encrypted and all encrypted files require authentication explain whether a confidential file cqn ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L2_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a rule states that all confidential files must be encrypted and all encrypted files require authentication explain whether a confidential file can ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a rupe states that all confidential files must b encrypted n all encrypted files require authentication xplain whether a confidential file czn ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a rule sgts that all confidential files must be encrypted n all envrypted files require authentication explain whether a cobfidential file can ever b accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a rule states that all confidential files must b encrypted n all encrypted files require authentication xplain whether a confiden file csn ever b accessed w/o authentication"
+    },
+    {
+      "id": "logical_2_L4_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "arule states that all confidentkal filesmust be encrypted n all encryptedfiles requireauthentication xplainwhether aconfidential file can everbe accessed withoutauthentication"
+    },
+    {
+      "id": "logical_2_L4_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "arule statesthat allconfiden filesmust b encryptedand all encrypted files requireauthentic explain whrther aconfidential filecan ever beaccessed w/o authentication"
+    },
+    {
+      "id": "logical_2_L4_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a rule statesthat all confidential files must b encrypted,and all encrypted files requireauthentication xplain whethera confidential file can evdrb accessedw/o authentication"
+    },
+    {
+      "id": "logical_2_L5_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen arule stat thatall confidential filesmust beencrypted, n all encryptedfiles require authentic explain tbh"
+    },
+    {
+      "id": "logical_2_L5_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "so like arule statesthat all confidential flsmust be encryptedand allencryp files require authenticztionexplain whether ty"
+    },
+    {
+      "id": "logical_2_L5_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "alright arule statesthat all confidential fil mustb encryptedand all encryptedfiles require authenticationexplain ty"
+    },
+    {
+      "id": "logical_3_L0",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a workflow where Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L1_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a workflow wjere Task B can start only after Task A finishes, explain whether parallel exevution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L1_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a workflow where Task B can start only after Task A fimishes, explain whether parallel execution is logically possible under any cohdition."
+    },
+    {
+      "id": "logical_3_L1_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a workflow wheee Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L2_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a workflow where task b czn start only after task a finishes explain whether parallel execution is logically possinle under any condktion."
+    },
+    {
+      "id": "logical_3_L2_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a workflow where task b can statt only after task a finishws explain whether parallel execution is logically possible under ahy condition."
+    },
+    {
+      "id": "logical_3_L2_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a workflow where task b can start only after task a finishes explain wheyher paraplel execution is logically possible under any condition"
+    },
+    {
+      "id": "logical_3_L3_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a workflow where task b can start only after task a finishes explain whether paraolel execution is logically possible under any condition"
+    },
+    {
+      "id": "logical_3_L3_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a workflow where task b can start only aftr task a finishes explain wget parallel execytion is logically possi under any condition"
+    },
+    {
+      "id": "logical_3_L3_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a workflow whw task b can start only aftr task a fnshs exolain whether parallel xctn is logically pssbl under any condition."
+    },
+    {
+      "id": "logical_3_L4_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "in a workflow where task b cznstart onlyafter task a finishes,explain whetparallel executionis logicallypossible under any condition."
+    },
+    {
+      "id": "logical_3_L4_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ina workflow wheretask b can startonly aftertask afinishes, xpln whetherparallel execution islogically possible under any condition"
+    },
+    {
+      "id": "logical_3_L4_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "in a workfwhere taskb can start only aftr tqska finishes,explain whetherparallel executionis logicallypossible underany condition"
+    },
+    {
+      "id": "logical_3_L5_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "HONESTLY in awrkflw WHERETASK bcan startonly after taska finishesexplain whether patallel execution!!"
+    },
+    {
+      "id": "logical_3_L5_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "quick note ina workflow wheretask b can start only aftertask a finishes, explain whether ty"
+    },
+    {
+      "id": "logical_3_L5_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm in a workflow wheretask b canstart ONLYAFGER task a FINISHESXPLAIN whet got it?"
+    },
+    {
+      "id": "logical_4_L0",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A company policy allows remote work only fpr employees with more than one year of experience. Explain whether an intwrn can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any lohical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A company policy allows remote work only for employees with moee tahn one yeqr of experience. Explain whether an inteen can quaoify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L2_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a company policy allows renote work only for employees with more than one year of experience explain whether an intern can qjalify unddr any logical interpretation"
+    },
+    {
+      "id": "logical_4_L2_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a company policy allpws remote work only for employees with more than one year of experience. explain whether an intern can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L2_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a company policy alloes remote work onoy for employees with more than one year of experience explain whether an intern can qualify under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L3_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a company policy allows remote work only fpr employees with more than one year of experience xplain whether an intern can qlfy under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L3_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a company policy allows remote work only for emoloyees with more than one year of experience. explain whether an intern can qualify under any lotical interlretation."
+    },
+    {
+      "id": "logical_4_L3_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a company policy allows remote work only for employees with more than one year of experience xplain whether an intern can qualify under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L4_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a compamypokicy llws remo workonly foremployees withmore than one yearof experience explainwhether an intern canqualify undany logical interpretation"
+    },
+    {
+      "id": "logical_4_L4_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a company policy allows remote workonly foremployees w/ morethan one ywarof experience. explwether aninte canqualify underany logical interpret"
+    },
+    {
+      "id": "logical_4_L4_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "acompany policy allowsremote work only 4 employeesw/ morethan one yezrof experience xplain whether anintern czn qualify underany logicalntrprttn"
+    },
+    {
+      "id": "logical_4_L5_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo a comppolicy allows remotework onlyfor employees wkth morethan one yearof experience. xplain WHETHER got it?"
+    },
+    {
+      "id": "logical_4_L5_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "honestly acompany policyallo remotework only4 employees w/ moeethqn ONEYEAR ofexperience xplain??"
+    },
+    {
+      "id": "logical_4_L5_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "OK so a company piliallows remote work only 4 employees withmore than one year of experience. explain whether an appreciate it"
+    },
+    {
+      "id": "logical_5_L0",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users afe eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Given that all premium users receive priority support and some priority usets receove refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L2_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "given that all premium users receive priority sulport and some priority users receive refunds, explain whether all premium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L2_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "given thqt all premium users receive priority support and some priority users receive refunds explain whether all premium users afe eligible for refunds."
+    },
+    {
+      "id": "logical_5_L2_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L3_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "gvn that all premium users receive priority support and some priority srs receive refunds xplain whether all prem srs are eligible flr refundd"
+    },
+    {
+      "id": "logical_5_L3_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "given that all premium drs receive priority support n some priority use receive refunds xplain whet aol premium users r eligible for refunds"
+    },
+    {
+      "id": "logical_5_L3_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "given taht all prmm use receife prioriry support abd sone priority usets receive refunds xplain whether all premuum users r eligible 4 refunds"
+    },
+    {
+      "id": "logical_5_L4_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "given that allpremium users receivepriofity supportn somepriority users receive rfndsxplain whetherall premiumusers are eligkble firrefunds"
+    },
+    {
+      "id": "logical_5_L4_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "givthat allpremium usersreceive priorsupport nsome priority users receiverefu explain whetherall premiumusers are eligible4 refunds"
+    },
+    {
+      "id": "logical_5_L4_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "given that allprmm usetsrece prioritysupport n somepriority usersreceive refundsexplain whether aklpremium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L5_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen given thatall premiumusers rcvpriority support andsome priorityusers receive refundsexplain whether all lol"
+    },
+    {
+      "id": "logical_5_L5_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "yo GIVEN that all peemusers receive PRIORITYSPPRT an somepriority usersrecrive refundsxplain whether allpremium??"
+    },
+    {
+      "id": "logical_5_L5_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "btw given that all premium users receive prioesupport n some priorityusers receive refunds,xplain thanks"
+    },
+    {
+      "id": "logical_6_L0",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain whether a system with role-based access comtrol can prevent privilege escalation if temporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explan whether a system with role-based acvess control can prevent privilege escalation if trmporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain whether a system with role-based access control can prevent privilege escalation if temporary roles aee allowed."
+    },
+    {
+      "id": "logical_6_L2_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed"
+    },
+    {
+      "id": "logical_6_L2_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain whether a system with role-based accdss control can prevent privilege escalation if temporary roles are allowed"
+    },
+    {
+      "id": "logical_6_L2_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain whether a system wth role-based acxess congrol can prevent privilege escalation if temporary roles are allpwed"
+    },
+    {
+      "id": "logical_6_L3_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "xplain whether a system with role-based access control can prevent privilege escalation if temporary roles r allowee"
+    },
+    {
+      "id": "logical_6_L3_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "explain whetger a system with rlvsd access control can prevent privilege escalation if temporary roles r plwd"
+    },
+    {
+      "id": "logical_6_L3_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "xplain whether a system w/ role-basrd access control can prev prvlg escalation if temporary rlles are allowed"
+    },
+    {
+      "id": "logical_6_L4_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplainwhether a system w/role-based acce controlcan prevent privilescalation iftemporary roles areallowed"
+    },
+    {
+      "id": "logical_6_L4_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "exllainwhether a system with role-based access control can prevent privilegeescalat if temporroles r aplowed"
+    },
+    {
+      "id": "logical_6_L4_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explwhether a system with role-basedavcess control can prevent privilegeescalayion if tmprry roles are allowec"
+    },
+    {
+      "id": "logical_6_L5_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "just saying expl WHETHERA syst W/ roke-based accesscontrol can precentprivilege tho"
+    },
+    {
+      "id": "logical_6_L5_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi xplainwhether asystem with role-based access controlcan PRECENTPRIVILEGE tbh"
+    },
+    {
+      "id": "logical_6_L5_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh explain whethera system with role-basedaccess CNTRL can preventpeivilege got it?"
+    },
+    {
+      "id": "logical_7_L0",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can lohically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "If a machine learning model is retfained whenevrr accuracy drops, explan whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whetehr accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L2_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "if a machine learning model is retrained whenever acduracy drops, explain whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L2_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "if a machine learning model is retrained whenever accuracy drops explain whether accuracy can logocally remain permanently stable"
+    },
+    {
+      "id": "logical_7_L2_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "if a machine learning model is retrained whenever adcuracy drops explain whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L3_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "if a machine learn model is retrained whenever accuracy drops xplain whether accuracy can logically remaun permanently stbl"
+    },
+    {
+      "id": "logical_7_L3_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "if a macy learning model is retrained whenever accur drops xplain whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L3_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "if a machine learning model is rrrnd whenever accuracy drops, ezpl whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L4_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ifa machinelearning mod is retrainedwhenever accuracy drlpsxplain whetheraccuracy can logica remain permanentlystable"
+    },
+    {
+      "id": "logical_7_L4_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ifa machine learningmodel is retrained whene accurqcy drops, xplainwhether accuracy canlogically remain permanentlystbl"
+    },
+    {
+      "id": "logical_7_L4_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "if amachine learningmodel is retrained whenever accuracydro explainwhether accuracy canlogically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L5_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright if a mzchnlearning MODELIS retrained whenever accuracydrips xplainwhthr accuracycan??"
+    },
+    {
+      "id": "logical_7_L5_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying ifa machinelearning modelis retrained wheneveraccuracy drps explan haha"
+    },
+    {
+      "id": "logical_7_L5_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "basically if a machinelearning model isretrained whenever accuracydrops, xplainwhthr lol"
+    },
+    {
+      "id": "logical_8_L0",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether avsilability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A library allows borrowing onky if books are available abd membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a library allows borrowing only if books are available and membership is acrive. explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a library allows borrowing only if books afe available and membership is active. explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a library allows borrowing only if books are available and membership is active explain whether availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L3_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a library allows brrwng only if books afe available n mmbrshp is active. xplain whether availabi alone is suffici"
+    },
+    {
+      "id": "logical_8_L3_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a lbrry aloows borrowing only if books r available n membership is active exppain whegher availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L3_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a library allows borrowin only if books r available n membership is acti explain whether availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L4_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a library allowsborrowing onlyif books ravailable and membershipis active explain whetheravailability alone issufficient"
+    },
+    {
+      "id": "logical_8_L4_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a library allowsborrowing only if books afe availablen members isactive xplainwhether availability alois sufficient"
+    },
+    {
+      "id": "logical_8_L4_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a library allows borrowing onlyif booksr vlbln membershipis activexplain whetheravailability alone is suffici"
+    },
+    {
+      "id": "logical_8_L5_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "LISTEN a lbrryalloqs borrowingonly if booksare availablen membership is ok?"
+    },
+    {
+      "id": "logical_8_L5_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi a library allowsborrowing only if books r availableand membership is appreciate it"
+    },
+    {
+      "id": "logical_8_L5_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hey a lbryklws borrowingonly ifbks aeeavailable andmembership IS pls?"
+    },
+    {
+      "id": "logical_9_L0",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a hierarchy whete seniors can override juniors, explain whether contrsdictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a hierarchy where seniors czn override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L2_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur"
+    },
+    {
+      "id": "logical_9_L2_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a hierarchy whrre seniors can override juniors explain whether contradictory decisions can still occur"
+    },
+    {
+      "id": "logical_9_L2_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a hierarchy where seniors can ovrrride juniors explain whether contradictory decisions can srill occur."
+    },
+    {
+      "id": "logical_9_L3_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a hierarchy where seniors cqn override juniors explsin whether contradictory decisiohs can still occur"
+    },
+    {
+      "id": "logical_9_L3_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a hierarchy where seniors can override juniors xplain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L3_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a hierarchy whr seni can override juniofs explain whether cntrdctry decisions can stkl odcur"
+    },
+    {
+      "id": "logical_9_L4_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ina hierarchy whereseniors canoverride jjnrs explain whether contradicdecisions canstill occur"
+    },
+    {
+      "id": "logical_9_L4_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "in a hierarwhere swniors canoverride juniors xplain whethercontradictory decisionscan still occur."
+    },
+    {
+      "id": "logical_9_L4_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "in ahierarchy whereseniors canoverride juniors explainwhether contradictory decisionscan still occur."
+    },
+    {
+      "id": "logical_9_L5_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo ina hierarchy where seni CANOVERR jnrsexplain tho"
+    },
+    {
+      "id": "logical_9_L5_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "uhh in A hierarchy whereseniors can overr juniorsxplain got it?"
+    },
+    {
+      "id": "logical_9_L5_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen in ahierarchy whwseniors cznoverride juniorsexplain whether contradictorydecisions tbh"
+    },
+    {
+      "id": "logical_10_L0",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning."
+    },
+    {
+      "id": "logical_10_L1_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, usihg logical reasoning."
+    },
+    {
+      "id": "logical_10_L1_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain whether adding mire validation rules can ever reduce system reliability, using logidal reasoning."
+    },
+    {
+      "id": "logical_10_L1_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning."
+    },
+    {
+      "id": "logical_10_L2_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain whether adding more validation rules can ever reduce system reliability using logical reasoning."
+    },
+    {
+      "id": "logical_10_L2_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain whether adding more validation rules can ever reduce system reliability, using logical reasoning"
+    },
+    {
+      "id": "logical_10_L2_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain whether adding more valieation rules can ever reduce system reliability using logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "xplain whether adding more validation rul can ever reduce system reliability usimg logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain whether adding more validation rules can ever reduce sys reliabi uskng logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "xpln whetr adding more valifation rjls can ever reduce system reliability using logical reasoning."
+    },
+    {
+      "id": "logical_10_L4_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplainwhet ddngmore validationrules canever redusystem reliability usin logicalreasoning"
+    },
+    {
+      "id": "logical_10_L4_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xpln whetheradding morevldtn rules csnever reduce systemreliability usinglogical reasoning."
+    },
+    {
+      "id": "logical_10_L4_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain whetheradding morevalidation rules can ever reduce systemrlblty usinglotical reasoning."
+    },
+    {
+      "id": "logical_10_L5_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo expl whthradding morevalidation rulescan everredice system yeah?"
+    },
+    {
+      "id": "logical_10_L5_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just SAYING xplainwhether addingmpre validationrules canever reduce systemreliability ty"
+    },
+    {
+      "id": "logical_10_L5_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "lowkey xplainwhether addingmore validation rulescan everreduce syst got it?"
+    },
+    {
+      "id": "classification_1_L0",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a platform that offers frwe educational content to users but sells analytics sefvices to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L2_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "cladsify a platform that offers free educational content to users but sells analytics services to institutions as b2b b2c or hyvrid justify your classification"
+    },
+    {
+      "id": "classification_1_L2_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a platform that offers free educational content to users but sells analytics services to institutions as b2b b2c or hybrid justify your classification"
+    },
+    {
+      "id": "classification_1_L2_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a platform that offers free educational content to users but sekls analytics services to institutions as b2b b2c or hybrid justify your classification"
+    },
+    {
+      "id": "classification_1_L3_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a platform that offers free educational content 2 users but sells analytics services 2 institutions as b2b, b2c, or hybrd jusgify ur classification."
+    },
+    {
+      "id": "classification_1_L3_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a platf that ffrs ftee educational content 2 users but sells abalytics services to institutions as b2b b2c or hybrid justify your clssfctn"
+    },
+    {
+      "id": "classification_1_L3_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a platform that offers free educational congent 2 users but slls analytics srvcs 2 institutions as b2b, b2c, or hybrid justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify platform that offers free educational content to usersbut srlls analyticsservices toinstitutions as b2b b2c or hybrid.justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a platform tyatoffers free educational content to users but sells analytics services 2 institutions b2b b2v or hybrid.justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classifya platformthat offers free educational content usersbut sells analytics services 2 nstttns as b2b b2c orhybrid justifyur classification"
+    },
+    {
+      "id": "classification_1_L5_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "fyi classify platform that offers free educational content 2users but sellsnlytcs SERVUCES 2institutions asb2b b2c tbh"
+    },
+    {
+      "id": "classification_1_L5_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey CLASSIFY a platform that offers FRDEEDUCATIONAL content 2 users but sellsanalytics services 2 institutions asb2b btw"
+    },
+    {
+      "id": "classification_1_L5_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "uhh classirya platform that offers free educational content usersbut selps analytics pls"
+    },
+    {
+      "id": "classification_2_L0",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisuons as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Coassify an AI tool that assists doctors but dows not make final decisions as adviaory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L2_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify an ai tool taht assists doctors but does not make final decisions as advisory or autonomous and explain why."
+    },
+    {
+      "id": "classification_2_L2_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "clzssify an ai tool that assists doctors but does not make final decisions as advisory or autonomous and explain why"
+    },
+    {
+      "id": "classification_2_L2_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify an ai tool that assists doctors but does not make fihal decisions as advisory or autonomous and explain why."
+    },
+    {
+      "id": "classification_2_L3_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "class an ai tool that assists doctors but does not make final decisions as advisory or autonomous and xplain why"
+    },
+    {
+      "id": "classification_2_L3_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "clssfy an ai tool that assiwts doctors but dies not make fin decisions as advisory or autonomous n explain why"
+    },
+    {
+      "id": "classification_2_L3_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify an ai tool that assists doctors but does not make final decisions as advisory or autonomous and xplain why."
+    },
+    {
+      "id": "classification_2_L4_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "clzssfyan aitool that assists doctors but doesnot make final decisi as advosory orautonom andexplain why"
+    },
+    {
+      "id": "classification_2_L4_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify an aitool that assists doctors butdoes not mske final decisionsas advisoryor autonomous,and xplain why."
+    },
+    {
+      "id": "classification_2_L4_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classifyan ai tool thatassists doct bit does notmake final decisions as advis or autonomous, n explzin why"
+    },
+    {
+      "id": "classification_2_L5_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "quick note clzssfyan aitool that assists doctorsbut doesnot makefinal decisions yeah?"
+    },
+    {
+      "id": "classification_2_L5_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh classify an ai TOOL that assistsdoctors but dods notmake final THO"
+    },
+    {
+      "id": "classification_2_L5_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm CLASSIFY an ai tiolthat assidlctors butdoes nit makefinal deciskons as!!"
+    },
+    {
+      "id": "classification_3_L0",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Determine whether a cokpany providing subscription-based clpud storage is primarioy a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L2_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primaruly a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L2_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based busibess"
+    },
+    {
+      "id": "classification_3_L2_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether a company providing subscrkption-based cloud storage is primarily a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L3_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L3_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "dtdrmn whether a company providing subscription-based cloud storage is primar a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L3_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether a company prvdng subscriptuon-based cloud storage is peimar a serviceb or productb business"
+    },
+    {
+      "id": "classification_3_L4_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determine whether a company pvdngsubscription-based cloudstorage is primarily a servicebor product-based busin"
+    },
+    {
+      "id": "classification_3_L4_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarilya service-basedor product-based business"
+    },
+    {
+      "id": "classification_3_L4_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determine whether a compproviding subscriptio cloudstorage isprimarily a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L5_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "uhh determine whether a company providing subscription-based cloud storateis PRIMARILY a pls?"
+    },
+    {
+      "id": "classification_3_L5_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "basically determine wherhera company providing subscription-basedcloud storage is primarily yeah?"
+    },
+    {
+      "id": "classification_3_L5_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "so yeah determine WHETHER acompany providinsubscriptipn-based cloud storqgeis primarily ty"
+    },
+    {
+      "id": "classification_4_L0",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a university-run stattup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L2_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a university-run startup incubator as educational commercial or hybrid with justification."
+    },
+    {
+      "id": "classification_4_L2_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a university-run sgartup incubator as educational commercial or hybrid with justification"
+    },
+    {
+      "id": "classification_4_L2_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a university-run startup incubator as educztional, commercial, or hybrid, with justification"
+    },
+    {
+      "id": "classification_4_L3_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a universityrin startup incubator as educational, commerc or hybrid, w/ justification"
+    },
+    {
+      "id": "classification_4_L3_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "cpssfy a university-run startup incubator as educational commercial or hybrid w/ justification"
+    },
+    {
+      "id": "classification_4_L3_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a university-run startup incuva as educational, commerd or hybrid, with jstfctn"
+    },
+    {
+      "id": "classification_4_L4_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify auniversity-run startup incubator as educational commercial or hybridw/ justification"
+    },
+    {
+      "id": "classification_4_L4_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a university-run startup incubator as educational, commercial, orhybrid, w/ justification."
+    },
+    {
+      "id": "classification_4_L4_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a university-run startypncbtr as educationalcommercial orhybrid with justification"
+    },
+    {
+      "id": "classification_4_L5_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "honestly clasza universit startup incubatoras educational commercial pls?"
+    },
+    {
+      "id": "classification_4_L5_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi classify university-run STARTUP ncbtras educationalcommercial THANKS"
+    },
+    {
+      "id": "classification_4_L5_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "btw CLASSIFYA university-run strtp ncbtras educaticommercial, ASAP"
+    },
+    {
+      "id": "classification_5_L0",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a mobile app that tracks expenses offline bjt syncs data onlune as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a mobile app that tracks expenses offline but syncs data onlkne as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a mobile alp that tracks expenses offline but syncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L2_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a mobile app that traxks expenses offline but syncs data onlone as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L2_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "clzssify a mobike app that tracks expemses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L2_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L3_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L3_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a mobile app that tracks expenses offline byt syncs data onlibe as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L3_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a mobile app that tracks expen offl but suncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L4_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify a mobile app that tracks expenses offlinebut syncs data onli asoffline-first or cloudfi"
+    },
+    {
+      "id": "classification_5_L4_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a mobile appthat tracks expenses offline butsyncs data online asoffline-first or cldfrst"
+    },
+    {
+      "id": "classification_5_L4_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a mobile aopthat tracks expenses offline byt syncs data onli asoffline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L5_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "uhh classify a mobile app that tracks expenses offline BUT syncs btw"
+    },
+    {
+      "id": "classification_5_L5_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey classify a mobile APP that tracks expenoffline but syncs??"
+    },
+    {
+      "id": "classification_5_L5_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "uhh classifya MOBILE aop thattracks expensesoffline but syncs data??"
+    },
+    {
+      "id": "classification_6_L0",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Drtermine whether an AI chatbot used for mental health suppprt should be classified as informatkonal or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine wether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L2_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether an ai chatbot used for mental health support should be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L2_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether an ai chatbot used fpr mental health support should be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L2_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether an ai chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L3_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "drtrmn whet an ai chatbot used 4 mental hral supp shld be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L3_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "determine whether an ai chatbot used for mntl health support shld b classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L3_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether an ai cyatbot used 4 mrntal heal sulport shld b classified as infornational or therapeutic"
+    },
+    {
+      "id": "classification_6_L4_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determine whether an ai chatbot used 4 mentalhealth supp shouldbe classified as informational or thrpwtc"
+    },
+    {
+      "id": "classification_6_L4_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determine whether anai cgatbotused 4mental health supportshld be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L4_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determwhether an aichatbot used for mental health suppshld b classified as informational ortherapeutic"
+    },
+    {
+      "id": "classification_6_L5_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright determine whether an aichatbot used 4 mentalhealth support should be ok?"
+    },
+    {
+      "id": "classification_6_L5_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "HONESTLY determine whether an ai chatbot uzed4 mentalhealth support should be classified ok?"
+    },
+    {
+      "id": "classification_6_L5_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "quick note determine whetheran ai chatused 4mental health spprt should tho"
+    },
+    {
+      "id": "classification_7_L0",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L2_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L2_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L2_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized, explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L3_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a govt digital id system as centralized or semi-decentralized, explaining your rsnng"
+    },
+    {
+      "id": "classification_7_L3_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a government digital id system as cenyral or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L3_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a govt digital id systm as centralized or semi-decentralized explaining ur reasoninh"
+    },
+    {
+      "id": "classification_7_L4_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classa govt digitalid system as centralized or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L4_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a govt digital id systmas centralized or semi-decentralized, explaining ur reasoning"
+    },
+    {
+      "id": "classification_7_L4_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classa govt digital id system as centralized or semi-decentralized explaining ur reasoning"
+    },
+    {
+      "id": "classification_7_L5_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "so like classify govtdigital idsystem as centralized or!!"
+    },
+    {
+      "id": "classification_7_L5_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "real quick classify a govt digital id system AS centralized got it?"
+    },
+    {
+      "id": "classification_7_L5_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "alright classify a government digi idsystem as centralor!!"
+    },
+    {
+      "id": "classification_8_L0",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a content moderation system that flags but does nlt remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L2_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a content moderation system tat flags but does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L2_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a content moderation system tat flags bjt does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L2_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a content moderation system that flags but does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L3_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a cpntent moderation sys that flags but does nlt remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L3_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a content moderation system that flags bjt does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L3_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a content moderation system that flags but dies nit remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L4_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classa contdnt moderationsystem that flags but does notremove content as proactibeor reactive"
+    },
+    {
+      "id": "classification_8_L4_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "clssfya cntntmodetation system thqtflqgs butdoes nlt removecontent as proavtive or reactive"
+    },
+    {
+      "id": "classification_8_L4_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a content moderation system that fpgsbut doesnot remo content as proactiveor rctv"
+    },
+    {
+      "id": "classification_8_L5_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen classifya content moderation system that flags but does appreciate it"
+    },
+    {
+      "id": "classification_8_L5_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh classify a content moderation system that flags but does notremove got it?"
+    },
+    {
+      "id": "classification_8_L5_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "so yeah classify A content moderation system tjatflags but DLES not remove right?"
+    },
+    {
+      "id": "classification_9_L0",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether a dataset collected from public forums should be classified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Determine whether a dataset collected from public flrums should be classified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether a dataset collected from public forums should be classified as pubkic or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine whether a dataset collected from public forums should be cladsified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L2_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L2_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive dqta"
+    },
+    {
+      "id": "classification_9_L2_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether a dataset collected from publoc forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L3_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "determine whether a dataset collected from public forums should be classified as publkc or sensitive data."
+    },
+    {
+      "id": "classification_9_L3_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L3_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether a daraset colpected from public forums should b classified as public or snstv data."
+    },
+    {
+      "id": "classification_9_L4_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determknewjet a datasetcollected from publicforums should bclassified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L4_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determinewhet adatzset collected from public forumsshould be classified as public or sensit data"
+    },
+    {
+      "id": "classification_9_L4_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determine whether a dataset collected from public forums should beclassif as public or sensitivedata."
+    },
+    {
+      "id": "classification_9_L5_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo determinewhether a dataset collected frompubl forums should tho"
+    },
+    {
+      "id": "classification_9_L5_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ALRIGHT determinewhether a data collexted frompublic forums shld be yeah?"
+    },
+    {
+      "id": "classification_9_L5_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "ALRIGHT determine whether a dataset collected from publicforums should be appreciate it"
+    },
+    {
+      "id": "classification_10_L0",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a recommenfation system that prioritizrs engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a reclmmendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L2_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centrix"
+    },
+    {
+      "id": "classification_10_L2_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L2_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a recommendation systm thqt prioritizes engagement over acciracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a recommendation system that prrtzs engagement over accuracy as user-cenyric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L4_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "clssfya recommwndationsystem thatprioritizes emgagement over accuracyas user-centric orpoatform-centric"
+    },
+    {
+      "id": "classification_10_L4_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over ccrcyas user-centricor plstformcentric"
+    },
+    {
+      "id": "classification_10_L4_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify rcmmndtnsystem thatprioritises engagement overaccuracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L5_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen classify arecommendation systm thatpriorit engagement overaccuracy ok?"
+    },
+    {
+      "id": "classification_10_L5_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ok so classify a recommendation SYSTEM that PRIORITIZES engagement over accuracy ok?"
+    },
+    {
+      "id": "classification_10_L5_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen cpssfya recommendationsystem that prioritizes engagement over FR"
+    },
+    {
+      "id": "qna_1_L0",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Why is response consistency more important than creativity in safety-critical AI systems? Explain with implications."
+    },
+    {
+      "id": "qna_1_L1_V1",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Why is response consistency mpre impt than creativity in safety-critical AI systems? Explain with implications."
+    },
+    {
+      "id": "qna_1_L1_V2",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Why is response consiwtency more important thn creativity in safety-critical AI systems? Explain with implications."
+    },
+    {
+      "id": "qna_1_L1_V3",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Why is response consistency more important than creativity in safety-critical AI ststems? Explain with implications."
+    },
+    {
+      "id": "qna_1_L2_V1",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "why is response cpnsistency more important than creativity in safety-critical ai systems explain with implications."
+    },
+    {
+      "id": "qna_1_L2_V2",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "why is response consistency moee imp than creativity in safety-critical ai systems explain with implications"
+    },
+    {
+      "id": "qna_1_L2_V3",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "why is response consistency more impprtant than creativity in safety-critical ai systems explain with implications"
+    },
+    {
+      "id": "qna_1_L3_V1",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "why is response consistency mire imp than creativity in safety-critical ai sydtems xplain w/ implicagions"
+    },
+    {
+      "id": "qna_1_L3_V2",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "why is response consistency more imp than creativity in safetycrigical ai systems explan w/ implications."
+    },
+    {
+      "id": "qna_1_L3_V3",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "why is response consistency more imp than creativity in safety-critical ai systems? xpla w/ implications"
+    },
+    {
+      "id": "qna_1_L4_V1",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "why isresponse cnsstncy mofeimportant thancreativity in safety-critical ai syst explzin withimolications"
+    },
+    {
+      "id": "qna_1_L4_V2",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "whyis response consistendymore importantthan creativity in safetycritical aisystems xplain with implications"
+    },
+    {
+      "id": "qna_1_L4_V3",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "why is responseconsistency more important than crdativ insafety-critical aisysrems? explainw/ implications."
+    },
+    {
+      "id": "qna_1_L5_V1",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "just saying why is response consistency more imp thancreativity in safety-critical got it?"
+    },
+    {
+      "id": "qna_1_L5_V2",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "hmm whyis response consistency moreimplrtant than creativityin safetycritical ty"
+    },
+    {
+      "id": "qna_1_L5_V3",
+      "base_id": "qna_1",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "real quick whyis responseconsistency moreimportant than creativityin safetycritical btw"
+    },
+    {
+      "id": "qna_2_L0",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "How does prompt phrasing influence the reliability of large language model outputs?"
+    },
+    {
+      "id": "qna_2_L1_V1",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "How does prompt phrasing influence the reliability of large language model outputs?"
+    },
+    {
+      "id": "qna_2_L1_V2",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "How does prompt phrasing influence the reliability of large language model outputs?"
+    },
+    {
+      "id": "qna_2_L1_V3",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "How does prompt phrasing influence the reliability of large language model outputs?"
+    },
+    {
+      "id": "qna_2_L2_V1",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "hiw dles prompt phrasing influence the reliability of laege language model outputs"
+    },
+    {
+      "id": "qna_2_L2_V2",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "how does pronpt phrawing influence the reliability of latge language model outputs"
+    },
+    {
+      "id": "qna_2_L2_V3",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "how does prompt phrasing influence the reliability of large language model outputs"
+    },
+    {
+      "id": "qna_2_L3_V1",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "how dpes prompt phrasing influence the reliability of large langu model outputs"
+    },
+    {
+      "id": "qna_2_L3_V2",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "how does prompt phraa inflje the reliability of large langu model outputs"
+    },
+    {
+      "id": "qna_2_L3_V3",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "how dods prompt phrasing influence tje reliability of large language mod outputs"
+    },
+    {
+      "id": "qna_2_L4_V1",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "how does promptphrasing influence thereliability of lar langu moceloutputs"
+    },
+    {
+      "id": "qna_2_L4_V2",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "how does prompt phrasing influence the reliabiof large language model outputs"
+    },
+    {
+      "id": "qna_2_L4_V3",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "how doesprompt phrasinginfluence tgereloability of lfglanguage model outputs?"
+    },
+    {
+      "id": "qna_2_L5_V1",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "so like how doesprompt phrasing influethe reliabilityof LARGE got it?"
+    },
+    {
+      "id": "qna_2_L5_V2",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "hey how does promptphrasing influence the reliability lol"
+    },
+    {
+      "id": "qna_2_L5_V3",
+      "base_id": "qna_2",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "just saying howdoes ptmptphrasing influencethe reliabilityof lsrg got it?"
+    },
+    {
+      "id": "qna_3_L0",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Why can excessive optimization reduce system robustness in machine learning pipelines?"
+    },
+    {
+      "id": "qna_3_L1_V1",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Why can excessive optimization reduce system robuwtness in machine learning pipelines?"
+    },
+    {
+      "id": "qna_3_L1_V2",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Why can excessive optimizatkon reduce system robustness in machine learning pipelines?"
+    },
+    {
+      "id": "qna_3_L1_V3",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Why can excessive optumization reduce system robustness in machine learnimg pipelines?"
+    },
+    {
+      "id": "qna_3_L2_V1",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "why can excessive optimization reduce system robustness in machine learning pipelines"
+    },
+    {
+      "id": "qna_3_L2_V2",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "why can excessive optimization reduce system robustness in machine learning pipelines"
+    },
+    {
+      "id": "qna_3_L2_V3",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "why can excessive optimization reduce system robustness in machine lwarning pipelines"
+    },
+    {
+      "id": "qna_3_L3_V1",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "why can excessive optimization reduce system robustness in machine learh pipelines"
+    },
+    {
+      "id": "qna_3_L3_V2",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "why can excessive optimization reduce system robustness in machine learning pplns"
+    },
+    {
+      "id": "qna_3_L3_V3",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "why can excessive optimization reduce system robudtn in macyine learnin pipelines"
+    },
+    {
+      "id": "qna_3_L4_V1",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "why cznexcessive optimizationreduce syst ribustness inmachine learning pipelines"
+    },
+    {
+      "id": "qna_3_L4_V2",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "why canxvssv prmztnreduce systemrobustness inmachine learningpipelines"
+    },
+    {
+      "id": "qna_3_L4_V3",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "why canexcessove optimizationrdc system rbstnss inmacgine learningpipelines"
+    },
+    {
+      "id": "qna_3_L5_V1",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "lowkey why can excessive optimization reduce system robustness ty"
+    },
+    {
+      "id": "qna_3_L5_V2",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi wjycan excessive optimization rdvsystem robustnin ok?"
+    },
+    {
+      "id": "qna_3_L5_V3",
+      "base_id": "qna_3",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "yo whycan excessiveoptimization reduce syst robustness btw"
+    },
+    {
+      "id": "qna_4_L0",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "How does ambiguity in requirements affect software system quality?"
+    },
+    {
+      "id": "qna_4_L1_V1",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "How does ambiguity in requirements affedt software system quality?"
+    },
+    {
+      "id": "qna_4_L1_V2",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "How does ambiguity in requirements affect software system quality?"
+    },
+    {
+      "id": "qna_4_L1_V3",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "How does ambiguity in requirements affect software system quality?"
+    },
+    {
+      "id": "qna_4_L2_V1",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "how does ambiguity in requirements affect software system quaoity?"
+    },
+    {
+      "id": "qna_4_L2_V2",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "hiw does ambiguity in requirements affect software system quality"
+    },
+    {
+      "id": "qna_4_L2_V3",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "how does ambiguity in requirements affect software system quapity"
+    },
+    {
+      "id": "qna_4_L3_V1",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "hiw does ambiguity in requirements affect software system quality"
+    },
+    {
+      "id": "qna_4_L3_V2",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "how does ambiguity in requirements affect softw system quality"
+    },
+    {
+      "id": "qna_4_L3_V3",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "hiw does ambiguity in requirem affect software system quality"
+    },
+    {
+      "id": "qna_4_L4_V1",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "hlwdoes mbgktyin requirdmentsaffect softwaresystem quality"
+    },
+    {
+      "id": "qna_4_L4_V2",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "how does ambiguity inrequirements affect softwaresys qual"
+    },
+    {
+      "id": "qna_4_L4_V3",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "howdoes ambiguityin requirements affe softwsresystem qualitu"
+    },
+    {
+      "id": "qna_4_L5_V1",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen how diesambiguity inrequirements affect softwsystem fr"
+    },
+    {
+      "id": "qna_4_L5_V2",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying how does ambiguityin requirements affect right?"
+    },
+    {
+      "id": "qna_4_L5_V3",
+      "base_id": "qna_4",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "real quick how doesambiguity in requirements AFFECT tho"
+    },
+    {
+      "id": "qna_5_L0",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Why is explainability important when deploying AI in regulated industries?"
+    },
+    {
+      "id": "qna_5_L1_V1",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Why is explainability important when deploying AI in regulated industeies?"
+    },
+    {
+      "id": "qna_5_L1_V2",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Why is explainability important wen deploying AI in regulated industries?"
+    },
+    {
+      "id": "qna_5_L1_V3",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Wjy is explainabiliry important when deploying AI in regulated industriea?"
+    },
+    {
+      "id": "qna_5_L2_V1",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "why is explainability important when deploying ai in regulated industries"
+    },
+    {
+      "id": "qna_5_L2_V2",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "wgy is explainability important when deploying ai in regulated industries"
+    },
+    {
+      "id": "qna_5_L2_V3",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "why is explainability important when deploying ai in regylated ihdustries"
+    },
+    {
+      "id": "qna_5_L3_V1",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "why is explainab imp when dllyng ai in regulated industries"
+    },
+    {
+      "id": "qna_5_L3_V2",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "why is explainability imp when deploying ai in regulated industr"
+    },
+    {
+      "id": "qna_5_L3_V3",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "why is xplnblty impt wehn delloying ai in rhltd industries"
+    },
+    {
+      "id": "qna_5_L4_V1",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "wgyis explainability imlortant when dwploy aiin rgltd industries"
+    },
+    {
+      "id": "qna_5_L4_V2",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "whyis xplnblty imlortantwhen deployimgai in regulatedinduztries"
+    },
+    {
+      "id": "qna_5_L4_V3",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "whyis explainability importantwhen deployin ai inregulated industr"
+    },
+    {
+      "id": "qna_5_L5_V1",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "real quick why isexplainability imp whendeploying aiin fr"
+    },
+    {
+      "id": "qna_5_L5_V2",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "yo wjyis explainability imp whendeploying aiin pls?"
+    },
+    {
+      "id": "qna_5_L5_V3",
+      "base_id": "qna_5",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "just saying why isexplainability importantwhen deploying ai fr"
+    },
+    {
+      "id": "qna_6_L0",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "How does model overconfidence impact user trust in AI systems?"
+    },
+    {
+      "id": "qna_6_L1_V1",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "How does moddl overconfidence impact uwer trust in AI systems?"
+    },
+    {
+      "id": "qna_6_L1_V2",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "How does model overconfidence impact user trust in AI systems?"
+    },
+    {
+      "id": "qna_6_L1_V3",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "How dles model overconfidebce impact user trust in AI systwms?"
+    },
+    {
+      "id": "qna_6_L2_V1",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "how does model overconfidence impact user trust in ai syatems"
+    },
+    {
+      "id": "qna_6_L2_V2",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "hlw does model overconfidence impqct user tfust in ai systems"
+    },
+    {
+      "id": "qna_6_L2_V3",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "hlw does model overconfidence impact uaer trust in ai systems"
+    },
+    {
+      "id": "qna_6_L3_V1",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "hlw does model overconfidence impact user trust in ai systems"
+    },
+    {
+      "id": "qna_6_L3_V2",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "how dors model overconfidence mpct user tfust in ai systms"
+    },
+    {
+      "id": "qna_6_L3_V3",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "how does model vrvnfdnc impsct user tru in ai systems"
+    },
+    {
+      "id": "qna_6_L4_V1",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "howdoes modeloverconfidence impactuser trust in aisystems?"
+    },
+    {
+      "id": "qna_6_L4_V2",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "how doesmodel overconfidence impact user trust in ai systems"
+    },
+    {
+      "id": "qna_6_L4_V3",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "howdoes model vrcnfdncimpqct usertrust inai systrms"
+    },
+    {
+      "id": "qna_6_L5_V1",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "SO like how doesmodel overconfi mctuwer trust BTW"
+    },
+    {
+      "id": "qna_6_L5_V2",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "uhh howdoes model overconfidence inpa usertrust pls?"
+    },
+    {
+      "id": "qna_6_L5_V3",
+      "base_id": "qna_6",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "btw how doesmodel overconfidenceimpact user trust LOL"
+    },
+    {
+      "id": "qna_7_L0",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Why is evaluation beyond accuracy necessary for modern AI models?"
+    },
+    {
+      "id": "qna_7_L1_V1",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Why is evaluation beyond accuracy necessary for modern AI models?"
+    },
+    {
+      "id": "qna_7_L1_V2",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Why is evaluation beuond accuracy necessary for modern AI modelz?"
+    },
+    {
+      "id": "qna_7_L1_V3",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Why is evaluation beyond acxuracy necessary for modern AI models?"
+    },
+    {
+      "id": "qna_7_L2_V1",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "why is evaluation beyond accuracy necessary for modern ai models"
+    },
+    {
+      "id": "qna_7_L2_V2",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "why is ebaluation beyond accuracy necessary for modern ai models"
+    },
+    {
+      "id": "qna_7_L2_V3",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "why is evaluation beyond accuracy necessary for modern ai models?"
+    },
+    {
+      "id": "qna_7_L3_V1",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "why is evaluation beyond accuracy necessary for mdrn ai models"
+    },
+    {
+      "id": "qna_7_L3_V2",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "why is evaluation bynd accuracy necessary for modern ai models"
+    },
+    {
+      "id": "qna_7_L3_V3",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "why is evaluation beyomd accuracy necessary for modern ai models?"
+    },
+    {
+      "id": "qna_7_L4_V1",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "wyyis vltnbwynd ccrcynecessary 4modern aimodels"
+    },
+    {
+      "id": "qna_7_L4_V2",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "why isevaluation beyond accuracy necessary 4 modern ai models"
+    },
+    {
+      "id": "qna_7_L4_V3",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "why is evaluation beyond accuracynecessary 4modetn ai models"
+    },
+    {
+      "id": "qna_7_L5_V1",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "uhh wgyis evaluation beyond accuracynecessary for??"
+    },
+    {
+      "id": "qna_7_L5_V2",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "quick note why isevaluat beyondaccuracy necessary for btw"
+    },
+    {
+      "id": "qna_7_L5_V3",
+      "base_id": "qna_7",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "uhh why is evaluation beyond accuracy NECESSARY tho"
+    },
+    {
+      "id": "qna_8_L0",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "How does scaling model size affect reasoning reliability rather than just performance?"
+    },
+    {
+      "id": "qna_8_L1_V1",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "How does scaling model size affect reasoning reliability rather than just performance?"
+    },
+    {
+      "id": "qna_8_L1_V2",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "How does scaling mpdel size affect reasoning reliability rather than just performance?"
+    },
+    {
+      "id": "qna_8_L1_V3",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "How does scsling model size adfect reasoning reliavility rather than just performance?"
+    },
+    {
+      "id": "qna_8_L2_V1",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "hlw dpes scaling model size affect reasoning reliability rather than jjst performance"
+    },
+    {
+      "id": "qna_8_L2_V2",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "how does scaling model size affect reasoning reliability rather than just performance"
+    },
+    {
+      "id": "qna_8_L2_V3",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "how does scaling model size affect reqsoning reliability rather than juzt performance"
+    },
+    {
+      "id": "qna_8_L3_V1",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "how dows scaling midel size affe reasonkng reliabi rather than juzt performance"
+    },
+    {
+      "id": "qna_8_L3_V2",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "how does scaling model size affd rqsnng reliability rather tgan just performance"
+    },
+    {
+      "id": "qna_8_L3_V3",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "how does scaling model suze affect reasoning reliability rthr thn just performance"
+    },
+    {
+      "id": "qna_8_L4_V1",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "how does scqlinmoe size affectreasoning reliability ratherthan just prrformance"
+    },
+    {
+      "id": "qna_8_L4_V2",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "hiwdoes scaling model sizeaffect rsnng reliability rather thanjust performance?"
+    },
+    {
+      "id": "qna_8_L4_V3",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "how does scalmodel size affect reasoning reliabilityrather than just performance"
+    },
+    {
+      "id": "qna_8_L5_V1",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "hey how dowsscaling mod sizeaffdct reasoning reoiability tho"
+    },
+    {
+      "id": "qna_8_L5_V2",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh how doesscaling modelsoze ffct reasonreliability yeah?"
+    },
+    {
+      "id": "qna_8_L5_V3",
+      "base_id": "qna_8",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "fyi HOW does scalingmodel siae affedtreason reliability right?"
+    },
+    {
+      "id": "qna_9_L0",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Why can longer responses increase the risk of logical inconsistency in LLMs?"
+    },
+    {
+      "id": "qna_9_L1_V1",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Why can longer responses increade the risk of logical inconsistency in LLMs?"
+    },
+    {
+      "id": "qna_9_L1_V2",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Why can longer responaes increase tje risk of logical inconsistency in LLMs?"
+    },
+    {
+      "id": "qna_9_L1_V3",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Why can longer responses increase the risk of logical inconsistency in LLMs?"
+    },
+    {
+      "id": "qna_9_L2_V1",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "why can lonher responses increase the risk of logical inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L2_V2",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "why can longer responses increase the risk of logical inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L2_V3",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "why can longer responses increase the risk of logical inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L3_V1",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "why can longer responses increase tge risk of logi inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L3_V2",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "why can longer responses increase the risk of logical inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L3_V3",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "why can longer responses incrr the risk of logical inconsistency in llms"
+    },
+    {
+      "id": "qna_9_L4_V1",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "why can longerresponses increase the risk of ligical ncnsstncyin llms"
+    },
+    {
+      "id": "qna_9_L4_V2",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "wyycqn longerresponses increase theriak of logical inconsistency in llms?"
+    },
+    {
+      "id": "qna_9_L4_V3",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "why cqnlpnger responsesincrease therisk oflgcl inconsistencyin llms"
+    },
+    {
+      "id": "qna_9_L5_V1",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "honestly WHY can longer rspnssincreaae therosk of right?"
+    },
+    {
+      "id": "qna_9_L5_V2",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "honestly whycan LONG rspnssimcrease the riskof pls"
+    },
+    {
+      "id": "qna_9_L5_V3",
+      "base_id": "qna_9",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "FYI why can longer rdpnssincrease therusk!!"
+    },
+    {
+      "id": "qna_10_L0",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "How does prompt drift affect downstream applications that rely on automated decision-making?"
+    },
+    {
+      "id": "qna_10_L1_V1",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Hiw does prompt drirt affect downstream applications tgat reoy on automated decision-making?"
+    },
+    {
+      "id": "qna_10_L1_V2",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Hiw dors prompt drift affect downstream applications that rely on automated decision-making?"
+    },
+    {
+      "id": "qna_10_L1_V3",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "How dows prompt droft affect downstream applications thqt rely on automated decision-making?"
+    },
+    {
+      "id": "qna_10_L2_V1",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "how dles prompt drkft affect downstream applications that rely on automated decision-making"
+    },
+    {
+      "id": "qna_10_L2_V2",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "hiw does prompt drift affect downstream applications that rely on autonated decision-making?"
+    },
+    {
+      "id": "qna_10_L2_V3",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "how dors prompt drift affect downstream applications that rely on automated decision-making"
+    },
+    {
+      "id": "qna_10_L3_V1",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "how does prom drift affe downstream applications thst rely on automated decision-makinh"
+    },
+    {
+      "id": "qna_10_L3_V2",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "how does prompt drirt affect downstream applications that rely on automa deciaionmakin"
+    },
+    {
+      "id": "qna_10_L3_V3",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "how dods prompt drift affect downstream applications that rely on tmtd decision-making"
+    },
+    {
+      "id": "qna_10_L4_V1",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "how diesprompt drift affectdownstream applicatuons that relyon automated decision-making?"
+    },
+    {
+      "id": "qna_10_L4_V2",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "hpwdoes promptdrft affectdownstrezm applicationsthat relyon automated decision-making"
+    },
+    {
+      "id": "qna_10_L4_V3",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "how does prompt driaffect downstream applications that relyon autimated decision-making"
+    },
+    {
+      "id": "qna_10_L5_V1",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo how doespromot deiftaffect downstr applications pls"
+    },
+    {
+      "id": "qna_10_L5_V2",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi how DOES prompt drift affectdownstream plctns yeah?"
+    },
+    {
+      "id": "qna_10_L5_V3",
+      "base_id": "qna_10",
+      "category": "qna",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "so like how doesprompt driftaffect downstream applicationsthat asap"
+    }
+  ]
+}

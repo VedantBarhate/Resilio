@@ -1,0 +1,1289 @@
+{
+  "metadata": {
+    "category": "reasoning",
+    "total_prompts": 160,
+    "parent_project": "Resolio"
+  },
+  "prompts": [
+    {
+      "id": "reasoning_1_L0",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-baded planta. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A city is facing frequent power ougages due to riding energy demand. Explain how the government shoukd decide between investing in renewable endrgy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L1_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consdr economic, environmental, and long-twrm sustainability factlrs."
+    },
+    {
+      "id": "reasoning_1_L2_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a city is facing frequent power outages due to rising energy demand. explain how the government should decide between investing in rendwable energy infrastructure versus expanding fodsil fuel-based plants. consider economic environmental and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L2_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a city is facing frequent power outages die to rising ebergy demand explain how the government should decide between investing in renewable energy infrastructure versus espanding fossil fuel-based plants consider economic environmental and long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L2_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a city is facing ffequent ppwer outages due to riskng energy demand. explain how the government should decide between investing in renewable eneegy infrastructure versus expanding fossil fuel-based plants. consider economic environmental and long-term sustainability factors."
+    },
+    {
+      "id": "reasoning_1_L3_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a city is facing frequent pwr outages due 2 rising energy demand explain how the govt shld decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants consider economic environmental n lngtrm sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L3_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a city is faci frequent power outages dye 2 rising energy demand. explain how the govt should decide between investing in renewable nrgy infrastructure vs expanding fossil fuel-based plants. consider economic environmental n long-term sustainability factprs."
+    },
+    {
+      "id": "reasoning_1_L3_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a city is facing frequent power outages die to rising energy demand xplain how the govt shld decide btwn investing in renewable energy infrastructure versus xpndng fossil fuel-based plnts consider economic, environmental, and long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L4_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "acity isfacing frequentpoe outages due torising energy demand xplnhow teh govt shluld decice btwn investing inrenewable energyinfrastructure vsexpanding fowsil fuel-basedplants consi economicenvironmental andlong-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L4_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a cityis facing frequent poweroutages due 2 rising energy demandxplain how the government shlddecide betweeninvest renewable enerhy infrastructureversus expanding fosz fuelba plantsconsider econokic nvrnmntl and longtermsustainability fact"
+    },
+    {
+      "id": "reasoning_1_L4_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a city is facing frequent power outages dueto rusing energydmnd xplain hiw thegovt shlddecide btwninvrsting in renewableenergy infrastructurevs expanding fossil fuel-based plants consider economic, environmental,n long-term sustainability factors"
+    },
+    {
+      "id": "reasoning_1_L5_V1",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically acigy isfacing frequent power outagrs due RISINGENER dema explain how thegovernment should decidebetween investing in renewable energy yeah?"
+    },
+    {
+      "id": "reasoning_1_L5_V2",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "hmm acity is facing frequent power OUTAGES due 2 risingener demand XPLAINHLW the government shlddecide between nvstng in??"
+    },
+    {
+      "id": "reasoning_1_L5_V3",
+      "base_id": "reasoning_1",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "basically acity is facing frequ poweroutages due TO rising energydemand xplain how tje govwrnmentshld decidebetw investingin RENEWABLE ener thanks"
+    },
+    {
+      "id": "reasoning_2_L0",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A startup with limited funds must choose between spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A startup with limited funds must choose between spending on marketing or imlroving prlduct reliability. Reason through how tihs devision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A startup with limkted funds must choose between spending on markdting or improving product reliability. Reason through hiw this decision should be mase and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L1_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A stqrtup with limited funds must choose bwtween spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs aee involved."
+    },
+    {
+      "id": "reasoning_2_L2_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a startup with limited funds must choose between spending on markering or improving product reliability reason through how this decision shld be made abd what trade-offs are involved"
+    },
+    {
+      "id": "reasoning_2_L2_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a sgartup with limited funds must choose between spending on marketing or improving product reliability. reason through how this decision should be made and what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L2_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a startup with limited funds must choose between spending on marketing or improving product relianility reason thru how this decision should be made and whqt trase-offs are involfed"
+    },
+    {
+      "id": "reasoning_2_L3_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a startup w/ lmtd fjnds must choose between spending on marketing or improving product reliability. reason thru how this decision shld b made adn what trade-offs are involved."
+    },
+    {
+      "id": "reasoning_2_L3_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a startup with limited funds must choose between spending on marketing or improving product reliability. reason thru how tihs decision shld b made and what trade-offs aee involved."
+    },
+    {
+      "id": "reasoning_2_L3_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a startup with lmtd fjnds must chiose between spending on marketing or improving prod reliabi reas through how this decision should be made n what trade-offs ate involvwd."
+    },
+    {
+      "id": "reasoning_2_L4_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a startjpwith limited funds must choose betweenspending on marketing or improving prodict reliability. reason thro howthis decision should b maden wgat trade-offsate involved."
+    },
+    {
+      "id": "reasoning_2_L4_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "astartup w/ limited funds must choose btwnspending on marketing orimproving prdctreliability reason thro hpw this decision shldbe maden what trade-offs r nvlvd"
+    },
+    {
+      "id": "reasoning_2_L4_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a startup w/ limited findsmust cgoose between spndng on marketing orimproving prodjctreliability reason through how this decision shouldbe made and what trade-offs areinvolved"
+    },
+    {
+      "id": "reasoning_2_L5_V1",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright a startup w/limi fundsmust choose between spending on marketing or improving prdct reliability tho"
+    },
+    {
+      "id": "reasoning_2_L5_V2",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "alright a STARTUP with limited funssmust choose btwnspending on marketingor IMPROVING ptod reliability. reason THROUGH HOWTHIS APPRECIATE it"
+    },
+    {
+      "id": "reasoning_2_L5_V3",
+      "base_id": "reasoning_2",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "FYI astartup w/ LMTD fundsmuwt choosebetween spehding onmarketing or improving product reliabi reason thru appreciate it"
+    },
+    {
+      "id": "reasoning_3_L0",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how an educational institution should balance between online nd offline teqching methocs after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L1_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+    },
+    {
+      "id": "reasoning_3_L2_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain how an educational institution should balance between online and offline teachong methods after the pandemic considering learning outcomes accessibility and costs"
+    },
+    {
+      "id": "reasoning_3_L2_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain how an educational institution shuold balance between online and offline teaching methods after hte pandemic considering learning outcomes accessibility and costz"
+    },
+    {
+      "id": "reasoning_3_L2_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain how an educational institution should balance between online and offline teaching methods after the pandemic considering learning outcomes accessibility and costa."
+    },
+    {
+      "id": "reasoning_3_L3_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "expl how an educational institution shiuld balance btwn online adn offline teaching methods after the panfemic considering lrnng outcomes accessibility and costs"
+    },
+    {
+      "id": "reasoning_3_L3_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "explain how an educational institution shld balance btwn online and offline tchng methods after the pzndemic, considerin learning outcomes, accessibilitt, and costs"
+    },
+    {
+      "id": "reasoning_3_L3_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "esplain hiw an educational institution shld balance between online and offline teaching methods after the pandemic, conskdering learning outcomes, ccssblty n costs"
+    },
+    {
+      "id": "reasoning_3_L4_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "explain how an educational nstttn shldbalance betwden onliand offline teach mthdsaftr the pabdemic, considerin learning outcomes,accessibility, n costs."
+    },
+    {
+      "id": "reasoning_3_L4_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xplain howan educational institu shouldbalance btwn online n offline teaching mthds aftr the pandemic cinsidelearning outcpmesccssblty ncozts"
+    },
+    {
+      "id": "reasoning_3_L4_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain how an educational institution should balance btwn online noffline teaching methods aftr the pandemic, consideringlearning outco accessibility, ancosts."
+    },
+    {
+      "id": "reasoning_3_L5_V1",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "real QUICK explain how aneducational institution shld balancebtwn onlinen offline teachingmethods aftthe pandemicconsidering lol"
+    },
+    {
+      "id": "reasoning_3_L5_V2",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey xplainhow an educational institution shld balancebetween ONLINE n odfline teachin yeah?"
+    },
+    {
+      "id": "reasoning_3_L5_V3",
+      "base_id": "reasoning_3",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen explain how an educational institution shldbalance btwn ONLINE n OFFLINE tchng!!"
+    },
+    {
+      "id": "reasoning_4_L0",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and whidh should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A company wants to autokate customer support using Ak. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L1_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A company wants to automate customer support using AI. Explain the reasoning prodess behind deciding which tasks should be automated and which should remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L2_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a company wants to automate customer support using ai explain the reasoning proceds behind deciding which tasks should be automated and which should remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L2_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a company wznts to autonate customer support using ai explain tge reasoning process behind deciding which tasks should be automated and whcih should remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L2_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a company wants to automate customer support using ai explain the reasoning process behind deciding whivh tasks should be automared and which should remzin human-operated"
+    },
+    {
+      "id": "reasoning_4_L3_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a comp wants 2 automate custo support using ai xpla the reasoning process behind decid whch tasks should be automated n which should remain humanoperated"
+    },
+    {
+      "id": "reasoning_4_L3_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a company wsnts to automate customer support using ai expl the reasoning process behind deciding which tasks shld be automated and which shld remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L3_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a comp wan 2 automate customer support using ai. explain the reasoning process bhnd deciding which tasks should b automated and which shld remain human-operated."
+    },
+    {
+      "id": "reasoning_4_L4_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a company wants 2automate customer support using aiexplain the reasonibg process behinddecidimg which tasks should bautomated n whichshld rekahuman-operated"
+    },
+    {
+      "id": "reasoning_4_L4_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a company wzntsto automatecustomer support using ai xplain the reasoninpeocess behind deciding which tasksshould b automated n whichshld remain human-operated"
+    },
+    {
+      "id": "reasoning_4_L4_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "acompany wan 2automate customer support using ai explain the reasoning prcss behind ddciding whi tasksshould bautoma n which shouldrmn human-operated"
+    },
+    {
+      "id": "reasoning_4_L5_V1",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "lowkey acompany wants 2 automate CUSTOMER support usingau xplain thereasoning PFOCESSBWHIND decidongwhich btw"
+    },
+    {
+      "id": "reasoning_4_L5_V2",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ok so a ckpnywsnts 2ytmt cstmr supp usinai. xplainthe rssnngproc behinddcdng whchtasks shld pls"
+    },
+    {
+      "id": "reasoning_4_L5_V3",
+      "base_id": "reasoning_4",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh a COMPANY wants to automate customer sulportusing ai explainthe reasoning process behind deciding which tasks tbh"
+    },
+    {
+      "id": "reasoning_5_L0",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Discuss how a country should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Discuss how a counyry should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Discuss how a country should prioritize spending btwn healthcare an defense during an edonomic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L1_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Discuss how a country should prioritize spdnding between healthcare ahd drfense during an economic slowdown. Justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L2_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "discuss hpw a country should prioritize spenfing between healthcare abd ddfense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L2_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "discuss how a country should prioritize spending between healthcare and dwfense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L2_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "discuss how a countfy should prioritize spending between healthcare and defense during an economic slowdown. justify your reasoning using multiple perspectives."
+    },
+    {
+      "id": "reasoning_5_L3_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "disduss how a country shuold prrtz spending between healthcare and defense during an economic slowdown justify ur reasoning using multiple perspect"
+    },
+    {
+      "id": "reasoning_5_L3_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "discuss how a country shld prioritize spending btwn healthcare and dfns during an economic slowdown justify yojr reasoning sng mltpl perspectives."
+    },
+    {
+      "id": "reasoning_5_L3_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "discuss how a country should prioritize spendin btwn healthcare and defense during an economic slowdown justify your reasoning using multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "discuss how acoun shldprioritize spending btwn healthcare n defenseduring economic slowdown justify ur reaslning usibgmulti perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "discuss how acountry shld prioritizespendin btwn healthcareand defense duringan economic slowdown jstfy your reasonin uskng multiple perspectives"
+    },
+    {
+      "id": "reasoning_5_L4_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "dischow a countryshld prioritize spending between hlthcr and dfrns duringan evonomic slowdownjustify your reasonin using multipleperwpectives"
+    },
+    {
+      "id": "reasoning_5_L5_V1",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "HMM dischow a COUNSHOILD prioritize spendingbetween healthcare and defense during an??"
+    },
+    {
+      "id": "reasoning_5_L5_V2",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "REAL quick discuss how A country should prrtz spwndingbtwn healthcaren defense duringan economic thanks"
+    },
+    {
+      "id": "reasoning_5_L5_V3",
+      "base_id": "reasoning_5",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "ok so DISCUSS how acountry should priorit spending BETWEENHEALTHCARE n DEFENSE during AN economic tho"
+    },
+    {
+      "id": "reasoning_6_L0",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain hpw a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L1_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain how a softwzre team should decide wyether to refactor an exksting system or rebuild it from scratch when performance issues arise."
+    },
+    {
+      "id": "reasoning_6_L2_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain hiw a software teqm should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise"
+    },
+    {
+      "id": "reasoning_6_L2_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "xplain how a software team syould decide whether to refactor an ezisting system or rdbuild it from scratch when performance issues arise"
+    },
+    {
+      "id": "reasoning_6_L2_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain hpw a software team should decide whetehr to refactor an exiating system or rebuild it from scragch when performqnce isdues arise."
+    },
+    {
+      "id": "reasoning_6_L3_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "explqin how a softw team shld deciee whether 2 rwfactor an zstng system or rebuild it from scratch when prfrmnc issues ari"
+    },
+    {
+      "id": "reasoning_6_L3_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain how a software team shld decide whether 2 refactor an existing system or rebu it from scratch when performance issues rs"
+    },
+    {
+      "id": "reasoning_6_L3_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "explain how a software team shld ddd wether to refactor an xstng system or rebuild it from scratch when performance issuds afise"
+    },
+    {
+      "id": "reasoning_6_L4_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplnhow asoftware teamshoud decide whether to refactoran existin system or rebuild it fromscratch when performance issuesarise"
+    },
+    {
+      "id": "reasoning_6_L4_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "explaonhow a software team sgould deci whether 2refactor an existing systemor rebuildit form scratch whenperformance issues rs"
+    },
+    {
+      "id": "reasoning_6_L4_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "xplainhow a software team shld decide whether 2 refactor existing system orrebuild itfrom scratch whenperformance issues ari"
+    },
+    {
+      "id": "reasoning_6_L5_V1",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "lowkey explhow a softwareteam should dcd whetherto refactor an existingsystem orrebuild asap"
+    },
+    {
+      "id": "reasoning_6_L5_V2",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "so like explain HOW a software team should decide WHETHER torefactor an existing system or haha"
+    },
+    {
+      "id": "reasoning_6_L5_V3",
+      "base_id": "reasoning_6",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "OK so explain how a softwsreteam SHOULD dcd whether to refactoran existingsystem or rebuild it appreciate it"
+    },
+    {
+      "id": "reasoning_7_L0",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason througt how polivy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A social media platform wants to reduce misinformation without harming free sperch. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L1_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L2_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a social media platform wants to reduce misinformation without harming free soeech reason through how policy decisions can be designed to adhieve this balance"
+    },
+    {
+      "id": "reasoning_7_L2_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a social media platform wants to reduce misinformation without harming free speech reason through how policy decisions can be designed to achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L2_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduxe misinformation without harming free speech reason through how policy decisions can be designed to achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L3_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a social media platform wsnts to reduce misinformation w/o harming free speech. reason through how policy decisions can b designed to achieve this blnc"
+    },
+    {
+      "id": "reasoning_7_L3_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a social media platform wants to reduce misinformation with harming free spewch. reqson thru how policy decisions can be designed to achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L3_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduce misinformation without harming free speech reason through how policy decisions can b dwsigned 2 achieve this balance"
+    },
+    {
+      "id": "reasoning_7_L4_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a social media platform wants to reduce misinformation without harming free spee reason throughhow policy decisions can be designedto achieve this balance."
+    },
+    {
+      "id": "reasoning_7_L4_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a social media platform wants 2reduce misinformation without harming free slee readonthru howpoli decisions can b dwsgnd toachieve this balance."
+    },
+    {
+      "id": "reasoning_7_L4_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a social media platform wants to reduce misinformationwithout harm free speech reasonthrygh how policydecisions can be designedto achiece this balance"
+    },
+    {
+      "id": "reasoning_7_L5_V1",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "ok so a socumed platform wantsto reduce misinformation without harming FREE speexh REASON through how policy decisions right?"
+    },
+    {
+      "id": "reasoning_7_L5_V2",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "honestly a social media platform wants to reduce misinformation w/o harming free speech reas throughhow??"
+    },
+    {
+      "id": "reasoning_7_L5_V3",
+      "base_id": "reasoning_7",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "fyi asocial media platform wants to reduce MISINFORMATION w/o hafmin freespeech reasonthru??"
+    },
+    {
+      "id": "reasoning_8_L0",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L1_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain how a logistics cpmpany should choose between faster delivery and lower operational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L1_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain how a logistics company should choose between faster delivery and lower operational costs wehn expanding to rural aread."
+    },
+    {
+      "id": "reasoning_8_L1_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explan how a logistics company should choose between fadter delivery and lower opeeational costs when expanding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L2_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas"
+    },
+    {
+      "id": "reasoning_8_L2_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain how a logistics company shoukd choose between faster delivery amd lower operational costs when expanding to rural areaa."
+    },
+    {
+      "id": "reasoning_8_L2_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain how a logistics company shld choose between faster delivery and lower operational costs when expznding to rural areas."
+    },
+    {
+      "id": "reasoning_8_L3_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "explain how a logiatics company should choose btwn faster delivery and lower operational cos when expanding 2 rural areas."
+    },
+    {
+      "id": "reasoning_8_L3_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas"
+    },
+    {
+      "id": "reasoning_8_L3_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "explain how a logistics company shld cjoose btwn faster delivery adn lower prtnl csts wen expanding to rural areaa"
+    },
+    {
+      "id": "reasoning_8_L4_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "explain how alogistics cmpny shoud choobetween fasterdelovery and loweroperational costs when expanding 2 rural areas."
+    },
+    {
+      "id": "reasoning_8_L4_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xplain how a logistics company should choose between faster delivery and lower operational costs when expanfingto rural rs"
+    },
+    {
+      "id": "reasoning_8_L4_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain how a lgstcs companyshld choosebetwedn fawter dlvryn lwr operational costs whenexpanding torural afeas."
+    },
+    {
+      "id": "reasoning_8_L5_V1",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically explain how a logistics company shldchoose betweenfaster delivery n LOWER operational costs ty"
+    },
+    {
+      "id": "reasoning_8_L5_V2",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying explain how a lgstcscompany shldchoose BETWEENFSTR deluvery and lower operational pls"
+    },
+    {
+      "id": "reasoning_8_L5_V3",
+      "base_id": "reasoning_8",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm expkhow a logistics companyshould choose btwnfaster delivery and lower right?"
+    },
+    {
+      "id": "reasoning_9_L0",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairness, accuracy, and student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A college plans to intrlduce AI-based grading systems. Explain the reasoning process beyind evakuating faurness, accuracy, amd student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairnesz, accuracy, and student trust."
+    },
+    {
+      "id": "reasoning_9_L1_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process bdhind evaluating fairness, accuracy, and stufent trust."
+    },
+    {
+      "id": "reasoning_9_L2_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a college plans to introduce ai-based grading systems. explain the reasoning process behind evaluating fairness accuracy and student trust."
+    },
+    {
+      "id": "reasoning_9_L2_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a college plans to introduce ai-based gfading systems explain the reasoning process behind evaluating fairness accuracy and student trust"
+    },
+    {
+      "id": "reasoning_9_L2_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a college plans to introduce ai-based gradimg systems explain the reasoning process behind evaluating fairness accuracy and student trust"
+    },
+    {
+      "id": "reasoning_9_L3_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a college plans 2 introduce aibased gdng systems explain the reasoning process behind evaluating fairn accuracy and student tryst"
+    },
+    {
+      "id": "reasoning_9_L3_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a college plans 2 introduce aivased grading systems. xplain the reasoning process behihd evaluat fairness accuracy n student trust."
+    },
+    {
+      "id": "reasoning_9_L3_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a college plans to htrdc ai-based grading systems explain the reasoning process behind evaluating fairness accuracy abd student trst"
+    },
+    {
+      "id": "reasoning_9_L4_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "collplans 2 introd ai-based gradsyst ecplain the reasoningprocess behind evaluatingfairn accuracy n student trust"
+    },
+    {
+      "id": "reasoning_9_L4_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a colleteplans to introduce aibased grading systems. xplainthe reasoning process behind evaluatinfairneds adcuracy and student truwt."
+    },
+    {
+      "id": "reasoning_9_L4_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a college plans to introduce ai-based grading systems explain the reasoningprocess bhnd evaluating fairness acxuracy nstudent trust"
+    },
+    {
+      "id": "reasoning_9_L5_V1",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "FYI A college plans 2intrid ai-basedgrading SYSTEMS XPLN the reasoning processbehind btw"
+    },
+    {
+      "id": "reasoning_9_L5_V2",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "quick note acollege plans to introduce ai-based grading systems explain the reasoning thanks"
+    },
+    {
+      "id": "reasoning_9_L5_V3",
+      "base_id": "reasoning_9",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh a college plans to introduce ai-based grading systems xplain the reasoning process behind tbh"
+    },
+    {
+      "id": "reasoning_10_L0",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Discuss how an organization shld drcide whether to adopt an emerging techbology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L1_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Discuss hiw an organization should decide whether to adopt an emerging technology tat is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L2_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable"
+    },
+    {
+      "id": "reasoning_10_L2_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "discuss how an organization should drcide whether to adolt an emerging technology that is promising but not yet stable."
+    },
+    {
+      "id": "reasoning_10_L2_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "discuss how an organkzation should decide whetehr to adopt an emerhing technology that is promising but not yet stable"
+    },
+    {
+      "id": "reasoning_10_L3_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "disc how an oeganiza shld decide whether 2 adipt an emerg technology that is promisin bit not yet stable"
+    },
+    {
+      "id": "reasoning_10_L3_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "discuss how an org shld dcd whether to adopt an emerging tech that is promosing but not ywt stable."
+    },
+    {
+      "id": "reasoning_10_L3_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "discuss how an org should decide whether 2 adopt an emerging tech that is promising but not yet stsble"
+    },
+    {
+      "id": "reasoning_10_L4_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "discuss howan org shld decide whether adopt an emerging tech thqt ispromising but not yet stab"
+    },
+    {
+      "id": "reasoning_10_L4_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "discusshow an organization shld decide whether to dpt an emerging technilogy thatis promising but not yet stbl"
+    },
+    {
+      "id": "reasoning_10_L4_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "discuss howan organizationshould decide whet 2 adolt an emergtech that is promising but notyet stable."
+    },
+    {
+      "id": "reasoning_10_L5_V1",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "honestly dischow an org shlddecide whether 2ADOPT an??"
+    },
+    {
+      "id": "reasoning_10_L5_V2",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying DWCSSHOW ANORG shld decide whetherto adoptan emerging tech appreciate IT"
+    },
+    {
+      "id": "reasoning_10_L5_V3",
+      "base_id": "reasoning_10",
+      "category": "reasoning",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "yo discuss howan org shld decide whether 2 adopt anemerging tech that pls?"
+    }
+  ]
+}

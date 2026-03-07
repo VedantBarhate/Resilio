@@ -1,0 +1,10 @@
+Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification.
+Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why.
+Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business.
+Classify a university-run startup incubator as educational, commercial, or hybrid, with justification.
+Classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first.
+Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic.
+Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning.
+Classify a content moderation system that flags but does not remove content as proactive or reactive.
+Determine whether a dataset collected from public forums should be classified as public or sensitive data.
+Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric.

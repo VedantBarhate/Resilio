@@ -1,0 +1,10 @@
+A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors.
+A startup with limited funds must choose between spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs are involved.
+Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs.
+A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated.
+Discuss how a country should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives.
+Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise.
+A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance.
+Explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas.
+A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairness, accuracy, and student trust.
+Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable.

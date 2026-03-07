@@ -1,0 +1,10 @@
+In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically.
+A rule states that all confidential files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be accessed without authentication.
+In a workflow where Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition.
+A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any logical interpretation.
+Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds.
+Explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed.
+If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can logically remain permanently stable.
+A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient.
+In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur.
+Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning.

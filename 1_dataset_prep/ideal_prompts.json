@@ -1,0 +1,215 @@
+{
+    "metadata": {
+        "project": "Resolio",
+        "total_prompts": 40,
+        "categories": [
+            "reasoning",
+            "logical",
+            "classification",
+            "qna"
+        ],
+        "created_by": "@vedant_barhate powered by OpenAI"
+    },
+    "prompts": [
+        {
+            "id": "reasoning_1",
+            "category": "reasoning",
+            "prompt": "A city is facing frequent power outages due to rising energy demand. Explain how the government should decide between investing in renewable energy infrastructure versus expanding fossil fuel-based plants. Consider economic, environmental, and long-term sustainability factors."
+        },
+        {
+            "id": "reasoning_2",
+            "category": "reasoning",
+            "prompt": "A startup with limited funds must choose between spending on marketing or improving product reliability. Reason through how this decision should be made and what trade-offs are involved."
+        },
+        {
+            "id": "reasoning_3",
+            "category": "reasoning",
+            "prompt": "Explain how an educational institution should balance between online and offline teaching methods after the pandemic, considering learning outcomes, accessibility, and costs."
+        },
+        {
+            "id": "reasoning_4",
+            "category": "reasoning",
+            "prompt": "A company wants to automate customer support using AI. Explain the reasoning process behind deciding which tasks should be automated and which should remain human-operated."
+        },
+        {
+            "id": "reasoning_5",
+            "category": "reasoning",
+            "prompt": "Discuss how a country should prioritize spending between healthcare and defense during an economic slowdown. Justify your reasoning using multiple perspectives."
+        },
+        {
+            "id": "reasoning_6",
+            "category": "reasoning",
+            "prompt": "Explain how a software team should decide whether to refactor an existing system or rebuild it from scratch when performance issues arise."
+        },
+        {
+            "id": "reasoning_7",
+            "category": "reasoning",
+            "prompt": "A social media platform wants to reduce misinformation without harming free speech. Reason through how policy decisions can be designed to achieve this balance."
+        },
+        {
+            "id": "reasoning_8",
+            "category": "reasoning",
+            "prompt": "Explain how a logistics company should choose between faster delivery and lower operational costs when expanding to rural areas."
+        },
+        {
+            "id": "reasoning_9",
+            "category": "reasoning",
+            "prompt": "A college plans to introduce AI-based grading systems. Explain the reasoning process behind evaluating fairness, accuracy, and student trust."
+        },
+        {
+            "id": "reasoning_10",
+            "category": "reasoning",
+            "prompt": "Discuss how an organization should decide whether to adopt an emerging technology that is promising but not yet stable."
+        },
+        {
+            "id": "logical_1",
+            "category": "logical",
+            "prompt": "In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically."
+        },
+        {
+            "id": "logical_2",
+            "category": "logical",
+            "prompt": "A rule states that all confidential files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be accessed without authentication."
+        },
+        {
+            "id": "logical_3",
+            "category": "logical",
+            "prompt": "In a workflow where Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition."
+        },
+        {
+            "id": "logical_4",
+            "category": "logical",
+            "prompt": "A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any logical interpretation."
+        },
+        {
+            "id": "logical_5",
+            "category": "logical",
+            "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds."
+        },
+        {
+            "id": "logical_6",
+            "category": "logical",
+            "prompt": "Explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed."
+        },
+        {
+            "id": "logical_7",
+            "category": "logical",
+            "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can logically remain permanently stable."
+        },
+        {
+            "id": "logical_8",
+            "category": "logical",
+            "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient."
+        },
+        {
+            "id": "logical_9",
+            "category": "logical",
+            "prompt": "In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur."
+        },
+        {
+            "id": "logical_10",
+            "category": "logical",
+            "prompt": "Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning."
+        },
+        {
+            "id": "classification_1",
+            "category": "classification",
+            "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+        },
+        {
+            "id": "classification_2",
+            "category": "classification",
+            "prompt": "Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why."
+        },
+        {
+            "id": "classification_3",
+            "category": "classification",
+            "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+        },
+        {
+            "id": "classification_4",
+            "category": "classification",
+            "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+        },
+        {
+            "id": "classification_5",
+            "category": "classification",
+            "prompt": "Classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first."
+        },
+        {
+            "id": "classification_6",
+            "category": "classification",
+            "prompt": "Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+        },
+        {
+            "id": "classification_7",
+            "category": "classification",
+            "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+        },
+        {
+            "id": "classification_8",
+            "category": "classification",
+            "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+        },
+        {
+            "id": "classification_9",
+            "category": "classification",
+            "prompt": "Determine whether a dataset collected from public forums should be classified as public or sensitive data."
+        },
+        {
+            "id": "classification_10",
+            "category": "classification",
+            "prompt": "Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+        },
+        {
+            "id": "qna_1",
+            "category": "qna",
+            "prompt": "Why is response consistency more important than creativity in safety-critical AI systems? Explain with implications."
+        },
+        {
+            "id": "qna_2",
+            "category": "qna",
+            "prompt": "How does prompt phrasing influence the reliability of large language model outputs?"
+        },
+        {
+            "id": "qna_3",
+            "category": "qna",
+            "prompt": "Why can excessive optimization reduce system robustness in machine learning pipelines?"
+        },
+        {
+            "id": "qna_4",
+            "category": "qna",
+            "prompt": "How does ambiguity in requirements affect software system quality?"
+        },
+        {
+            "id": "qna_5",
+            "category": "qna",
+            "prompt": "Why is explainability important when deploying AI in regulated industries?"
+        },
+        {
+            "id": "qna_6",
+            "category": "qna",
+            "prompt": "How does model overconfidence impact user trust in AI systems?"
+        },
+        {
+            "id": "qna_7",
+            "category": "qna",
+            "prompt": "Why is evaluation beyond accuracy necessary for modern AI models?"
+        },
+        {
+            "id": "qna_8",
+            "category": "qna",
+            "prompt": "How does scaling model size affect reasoning reliability rather than just performance?"
+        },
+        {
+            "id": "qna_9",
+            "category": "qna",
+            "prompt": "Why can longer responses increase the risk of logical inconsistency in LLMs?"
+        },
+        {
+            "id": "qna_10",
+            "category": "qna",
+            "prompt": "How does prompt drift affect downstream applications that rely on automated decision-making?"
+        }
+    ]
+}

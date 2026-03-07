@@ -1,0 +1,1289 @@
+{
+  "metadata": {
+    "category": "classification",
+    "total_prompts": 160,
+    "parent_project": "Resolio"
+  },
+  "prompts": [
+    {
+      "id": "classification_1_L0",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a platform that offers free educational content to users but sells analytics services to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L1_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a platform that offers frwe educational content to users but sells analytics sefvices to institutions as B2B, B2C, or Hybrid. Justify your classification."
+    },
+    {
+      "id": "classification_1_L2_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "cladsify a platform that offers free educational content to users but sells analytics services to institutions as b2b b2c or hyvrid justify your classification"
+    },
+    {
+      "id": "classification_1_L2_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a platform that offers free educational content to users but sells analytics services to institutions as b2b b2c or hybrid justify your classification"
+    },
+    {
+      "id": "classification_1_L2_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a platform that offers free educational content to users but sekls analytics services to institutions as b2b b2c or hybrid justify your classification"
+    },
+    {
+      "id": "classification_1_L3_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a platform that offers free educational content 2 users but sells analytics services 2 institutions as b2b, b2c, or hybrd jusgify ur classification."
+    },
+    {
+      "id": "classification_1_L3_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a platf that ffrs ftee educational content 2 users but sells abalytics services to institutions as b2b b2c or hybrid justify your clssfctn"
+    },
+    {
+      "id": "classification_1_L3_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a platform that offers free educational congent 2 users but slls analytics srvcs 2 institutions as b2b, b2c, or hybrid justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify platform that offers free educational content to usersbut srlls analyticsservices toinstitutions as b2b b2c or hybrid.justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a platform tyatoffers free educational content to users but sells analytics services 2 institutions b2b b2v or hybrid.justify your classification."
+    },
+    {
+      "id": "classification_1_L4_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classifya platformthat offers free educational content usersbut sells analytics services 2 nstttns as b2b b2c orhybrid justifyur classification"
+    },
+    {
+      "id": "classification_1_L5_V1",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "fyi classify platform that offers free educational content 2users but sellsnlytcs SERVUCES 2institutions asb2b b2c tbh"
+    },
+    {
+      "id": "classification_1_L5_V2",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey CLASSIFY a platform that offers FRDEEDUCATIONAL content 2 users but sellsanalytics services 2 institutions asb2b btw"
+    },
+    {
+      "id": "classification_1_L5_V3",
+      "base_id": "classification_1",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "uhh classirya platform that offers free educational content usersbut selps analytics pls"
+    },
+    {
+      "id": "classification_2_L0",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisuons as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Coassify an AI tool that assists doctors but dows not make final decisions as adviaory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L1_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify an AI tool that assists doctors but does not make final decisions as advisory or autonomous, and explain why."
+    },
+    {
+      "id": "classification_2_L2_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify an ai tool taht assists doctors but does not make final decisions as advisory or autonomous and explain why."
+    },
+    {
+      "id": "classification_2_L2_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "clzssify an ai tool that assists doctors but does not make final decisions as advisory or autonomous and explain why"
+    },
+    {
+      "id": "classification_2_L2_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify an ai tool that assists doctors but does not make fihal decisions as advisory or autonomous and explain why."
+    },
+    {
+      "id": "classification_2_L3_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "class an ai tool that assists doctors but does not make final decisions as advisory or autonomous and xplain why"
+    },
+    {
+      "id": "classification_2_L3_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "clssfy an ai tool that assiwts doctors but dies not make fin decisions as advisory or autonomous n explain why"
+    },
+    {
+      "id": "classification_2_L3_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify an ai tool that assists doctors but does not make final decisions as advisory or autonomous and xplain why."
+    },
+    {
+      "id": "classification_2_L4_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "clzssfyan aitool that assists doctors but doesnot make final decisi as advosory orautonom andexplain why"
+    },
+    {
+      "id": "classification_2_L4_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify an aitool that assists doctors butdoes not mske final decisionsas advisoryor autonomous,and xplain why."
+    },
+    {
+      "id": "classification_2_L4_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classifyan ai tool thatassists doct bit does notmake final decisions as advis or autonomous, n explzin why"
+    },
+    {
+      "id": "classification_2_L5_V1",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "quick note clzssfyan aitool that assists doctorsbut doesnot makefinal decisions yeah?"
+    },
+    {
+      "id": "classification_2_L5_V2",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh classify an ai TOOL that assistsdoctors but dods notmake final THO"
+    },
+    {
+      "id": "classification_2_L5_V3",
+      "base_id": "classification_2",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm CLASSIFY an ai tiolthat assidlctors butdoes nit makefinal deciskons as!!"
+    },
+    {
+      "id": "classification_3_L0",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Determine whether a cokpany providing subscription-based clpud storage is primarioy a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L1_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L2_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primaruly a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L2_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based busibess"
+    },
+    {
+      "id": "classification_3_L2_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether a company providing subscrkption-based cloud storage is primarily a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L3_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarily a service-based or product-based business."
+    },
+    {
+      "id": "classification_3_L3_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "dtdrmn whether a company providing subscription-based cloud storage is primar a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L3_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether a company prvdng subscriptuon-based cloud storage is peimar a serviceb or productb business"
+    },
+    {
+      "id": "classification_3_L4_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determine whether a company pvdngsubscription-based cloudstorage is primarily a servicebor product-based busin"
+    },
+    {
+      "id": "classification_3_L4_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determine whether a company providing subscription-based cloud storage is primarilya service-basedor product-based business"
+    },
+    {
+      "id": "classification_3_L4_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determine whether a compproviding subscriptio cloudstorage isprimarily a service-based or product-based business"
+    },
+    {
+      "id": "classification_3_L5_V1",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "uhh determine whether a company providing subscription-based cloud storateis PRIMARILY a pls?"
+    },
+    {
+      "id": "classification_3_L5_V2",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "basically determine wherhera company providing subscription-basedcloud storage is primarily yeah?"
+    },
+    {
+      "id": "classification_3_L5_V3",
+      "base_id": "classification_3",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "so yeah determine WHETHER acompany providinsubscriptipn-based cloud storqgeis primarily ty"
+    },
+    {
+      "id": "classification_4_L0",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a university-run stattup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L1_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a university-run startup incubator as educational, commercial, or hybrid, with justification."
+    },
+    {
+      "id": "classification_4_L2_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a university-run startup incubator as educational commercial or hybrid with justification."
+    },
+    {
+      "id": "classification_4_L2_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a university-run sgartup incubator as educational commercial or hybrid with justification"
+    },
+    {
+      "id": "classification_4_L2_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a university-run startup incubator as educztional, commercial, or hybrid, with justification"
+    },
+    {
+      "id": "classification_4_L3_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a universityrin startup incubator as educational, commerc or hybrid, w/ justification"
+    },
+    {
+      "id": "classification_4_L3_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "cpssfy a university-run startup incubator as educational commercial or hybrid w/ justification"
+    },
+    {
+      "id": "classification_4_L3_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a university-run startup incuva as educational, commerd or hybrid, with jstfctn"
+    },
+    {
+      "id": "classification_4_L4_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify auniversity-run startup incubator as educational commercial or hybridw/ justification"
+    },
+    {
+      "id": "classification_4_L4_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a university-run startup incubator as educational, commercial, orhybrid, w/ justification."
+    },
+    {
+      "id": "classification_4_L4_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a university-run startypncbtr as educationalcommercial orhybrid with justification"
+    },
+    {
+      "id": "classification_4_L5_V1",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "honestly clasza universit startup incubatoras educational commercial pls?"
+    },
+    {
+      "id": "classification_4_L5_V2",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi classify university-run STARTUP ncbtras educationalcommercial THANKS"
+    },
+    {
+      "id": "classification_4_L5_V3",
+      "base_id": "classification_4",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "btw CLASSIFYA university-run strtp ncbtras educaticommercial, ASAP"
+    },
+    {
+      "id": "classification_5_L0",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a mobile app that tracks expenses offline bjt syncs data onlune as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a mobile app that tracks expenses offline but syncs data onlkne as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L1_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a mobile alp that tracks expenses offline but syncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L2_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a mobile app that traxks expenses offline but syncs data onlone as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L2_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "clzssify a mobike app that tracks expemses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L2_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L3_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a mobile app that tracks expenses offline but syncs data online as offline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L3_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a mobile app that tracks expenses offline byt syncs data onlibe as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L3_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a mobile app that tracks expen offl but suncs data online as offline-first or cloud-first."
+    },
+    {
+      "id": "classification_5_L4_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classify a mobile app that tracks expenses offlinebut syncs data onli asoffline-first or cloudfi"
+    },
+    {
+      "id": "classification_5_L4_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a mobile appthat tracks expenses offline butsyncs data online asoffline-first or cldfrst"
+    },
+    {
+      "id": "classification_5_L4_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a mobile aopthat tracks expenses offline byt syncs data onli asoffline-first or cloud-first"
+    },
+    {
+      "id": "classification_5_L5_V1",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "uhh classify a mobile app that tracks expenses offline BUT syncs btw"
+    },
+    {
+      "id": "classification_5_L5_V2",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "lowkey classify a mobile APP that tracks expenoffline but syncs??"
+    },
+    {
+      "id": "classification_5_L5_V3",
+      "base_id": "classification_5",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "uhh classifya MOBILE aop thattracks expensesoffline but syncs data??"
+    },
+    {
+      "id": "classification_6_L0",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Drtermine whether an AI chatbot used for mental health suppprt should be classified as informatkonal or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L1_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine wether an AI chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L2_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether an ai chatbot used for mental health support should be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L2_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether an ai chatbot used fpr mental health support should be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L2_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether an ai chatbot used for mental health support should be classified as informational or therapeutic."
+    },
+    {
+      "id": "classification_6_L3_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "drtrmn whet an ai chatbot used 4 mental hral supp shld be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L3_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "determine whether an ai chatbot used for mntl health support shld b classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L3_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether an ai cyatbot used 4 mrntal heal sulport shld b classified as infornational or therapeutic"
+    },
+    {
+      "id": "classification_6_L4_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determine whether an ai chatbot used 4 mentalhealth supp shouldbe classified as informational or thrpwtc"
+    },
+    {
+      "id": "classification_6_L4_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determine whether anai cgatbotused 4mental health supportshld be classified as informational or therapeutic"
+    },
+    {
+      "id": "classification_6_L4_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determwhether an aichatbot used for mental health suppshld b classified as informational ortherapeutic"
+    },
+    {
+      "id": "classification_6_L5_V1",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright determine whether an aichatbot used 4 mentalhealth support should be ok?"
+    },
+    {
+      "id": "classification_6_L5_V2",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "HONESTLY determine whether an ai chatbot uzed4 mentalhealth support should be classified ok?"
+    },
+    {
+      "id": "classification_6_L5_V3",
+      "base_id": "classification_6",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "quick note determine whetheran ai chatused 4mental health spprt should tho"
+    },
+    {
+      "id": "classification_7_L0",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L1_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a government digital ID system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L2_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L2_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized, explaining your reasoning."
+    },
+    {
+      "id": "classification_7_L2_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a government digital id system as centralized or semi-decentralized, explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L3_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a govt digital id system as centralized or semi-decentralized, explaining your rsnng"
+    },
+    {
+      "id": "classification_7_L3_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a government digital id system as cenyral or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L3_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a govt digital id systm as centralized or semi-decentralized explaining ur reasoninh"
+    },
+    {
+      "id": "classification_7_L4_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classa govt digitalid system as centralized or semi-decentralized explaining your reasoning"
+    },
+    {
+      "id": "classification_7_L4_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a govt digital id systmas centralized or semi-decentralized, explaining ur reasoning"
+    },
+    {
+      "id": "classification_7_L4_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classa govt digital id system as centralized or semi-decentralized explaining ur reasoning"
+    },
+    {
+      "id": "classification_7_L5_V1",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "so like classify govtdigital idsystem as centralized or!!"
+    },
+    {
+      "id": "classification_7_L5_V2",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "real quick classify a govt digital id system AS centralized got it?"
+    },
+    {
+      "id": "classification_7_L5_V3",
+      "base_id": "classification_7",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "alright classify a government digi idsystem as centralor!!"
+    },
+    {
+      "id": "classification_8_L0",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a content moderation system that flags but does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L1_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a content moderation system that flags but does nlt remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L2_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a content moderation system tat flags but does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L2_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a content moderation system tat flags bjt does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L2_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a content moderation system that flags but does not remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L3_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a cpntent moderation sys that flags but does nlt remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L3_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a content moderation system that flags bjt does not remove content as proactive or reactive."
+    },
+    {
+      "id": "classification_8_L3_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a content moderation system that flags but dies nit remove content as proactive or reactive"
+    },
+    {
+      "id": "classification_8_L4_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "classa contdnt moderationsystem that flags but does notremove content as proactibeor reactive"
+    },
+    {
+      "id": "classification_8_L4_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "clssfya cntntmodetation system thqtflqgs butdoes nlt removecontent as proavtive or reactive"
+    },
+    {
+      "id": "classification_8_L4_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify a content moderation system that fpgsbut doesnot remo content as proactiveor rctv"
+    },
+    {
+      "id": "classification_8_L5_V1",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen classifya content moderation system that flags but does appreciate it"
+    },
+    {
+      "id": "classification_8_L5_V2",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh classify a content moderation system that flags but does notremove got it?"
+    },
+    {
+      "id": "classification_8_L5_V3",
+      "base_id": "classification_8",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "so yeah classify A content moderation system tjatflags but DLES not remove right?"
+    },
+    {
+      "id": "classification_9_L0",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Determine whether a dataset collected from public forums should be classified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Determine whether a dataset collected from public flrums should be classified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Determine whether a dataset collected from public forums should be classified as pubkic or sensitive data."
+    },
+    {
+      "id": "classification_9_L1_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Determine whether a dataset collected from public forums should be cladsified as public or sensitive data."
+    },
+    {
+      "id": "classification_9_L2_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L2_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive dqta"
+    },
+    {
+      "id": "classification_9_L2_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "determine whether a dataset collected from publoc forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L3_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "determine whether a dataset collected from public forums should be classified as publkc or sensitive data."
+    },
+    {
+      "id": "classification_9_L3_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "determine whether a dataset collected from public forums should be classified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L3_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "determine whether a daraset colpected from public forums should b classified as public or snstv data."
+    },
+    {
+      "id": "classification_9_L4_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "determknewjet a datasetcollected from publicforums should bclassified as public or sensitive data"
+    },
+    {
+      "id": "classification_9_L4_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "determinewhet adatzset collected from public forumsshould be classified as public or sensit data"
+    },
+    {
+      "id": "classification_9_L4_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "determine whether a dataset collected from public forums should beclassif as public or sensitivedata."
+    },
+    {
+      "id": "classification_9_L5_V1",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo determinewhether a dataset collected frompubl forums should tho"
+    },
+    {
+      "id": "classification_9_L5_V2",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ALRIGHT determinewhether a data collexted frompublic forums shld be yeah?"
+    },
+    {
+      "id": "classification_9_L5_V3",
+      "base_id": "classification_9",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "ALRIGHT determine whether a dataset collected from publicforums should be appreciate it"
+    },
+    {
+      "id": "classification_10_L0",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Classify a recommenfation system that prioritizrs engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L1_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Classify a reclmmendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L2_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centrix"
+    },
+    {
+      "id": "classification_10_L2_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L2_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "classify a recommendation systm thqt prioritizes engagement over acciracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "classify a recommendation system that prrtzs engagement over accuracy as user-cenyric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L3_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "classify a recommendation system that prioritizes engagement over accuracy as user-centric or platform-centric."
+    },
+    {
+      "id": "classification_10_L4_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "clssfya recommwndationsystem thatprioritizes emgagement over accuracyas user-centric orpoatform-centric"
+    },
+    {
+      "id": "classification_10_L4_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "classify a recommendation system that prioritizes engagement over ccrcyas user-centricor plstformcentric"
+    },
+    {
+      "id": "classification_10_L4_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "classify rcmmndtnsystem thatprioritises engagement overaccuracy as user-centric or platform-centric"
+    },
+    {
+      "id": "classification_10_L5_V1",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen classify arecommendation systm thatpriorit engagement overaccuracy ok?"
+    },
+    {
+      "id": "classification_10_L5_V2",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "ok so classify a recommendation SYSTEM that PRIORITIZES engagement over accuracy ok?"
+    },
+    {
+      "id": "classification_10_L5_V3",
+      "base_id": "classification_10",
+      "category": "classification",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen cpssfya recommendationsystem that prioritizes engagement over FR"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "metadata": {
+    "category": "logical",
+    "total_prompts": 160,
+    "parent_project": "Resolio"
+  },
+  "prompts": [
+    {
+      "id": "logical_1_L0",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a system where only Managers can approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a system where only Managers can approve expendes and Employees can submit requests, explain whether an Employee can indirectly approve thdir own expense if Managers delegate approval authority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L1_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a system where only Managers csn approve expenses and Employees can submit requests, explain whether an Employee can indirectly approve their own expense if Managers delegate approval aythority. Justify your answer logically."
+    },
+    {
+      "id": "logical_1_L2_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a system where only managers can approve expenses and employees can submit requests explain whether an employee cqn indirectly approve their own expense if managers delegate approval authority. justify your answer logically."
+    },
+    {
+      "id": "logical_1_L2_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a system wgere only managers can approve expenwes abd employees can submit requests explain whether an employee can indirectly approve their own expense if managers delegate approval authority justify your answer logically"
+    },
+    {
+      "id": "logical_1_L2_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a system whete only managers can approve expenses and employees can submit requests explain whethwr an employee can indirectly approve their own exoense if managers delwgate approval authority justify your answer logically"
+    },
+    {
+      "id": "logical_1_L3_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a system whe only managers can approve expenses and employees can submit requdsts xplain whether an employee can indirectly approve their own expense if managers delegate approval authority justify ur ans logically"
+    },
+    {
+      "id": "logical_1_L3_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a system where only managers can approve expenses n employees can submit requests, explain whether an employee can indirectly approve their own expe if managers delegage approval authority justify your ans logically"
+    },
+    {
+      "id": "logical_1_L3_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a system where only managers can approve expenses n employees can submit requests xplain whether an emplo czn indirectly appr their own expense if managers delegate approval authority justify ur nswr logicallu"
+    },
+    {
+      "id": "logical_1_L4_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ina system where onlymanagers can approve expenses and employees can submit requestsexplain whether an employee can indirectly appr theirown expense ifmanagers delegate approvalauthority justify ur nswr logkcally"
+    },
+    {
+      "id": "logical_1_L4_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ina systemwhere only managerscan approveexpenses and employeesczn submit requests xplain whetheran employeecan indirectly approvetheir own expense ifmanagers delegate approval authority justify urans logically"
+    },
+    {
+      "id": "logical_1_L4_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "ina system where onlymanagers canapprove expenses and employees cansugmit reque xplainwhether an employeecan indirectlyapprove theirown expense if managers dpgt approvaltgrty justify ur answer logically"
+    },
+    {
+      "id": "logical_1_L5_V1",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "basically ina systwm whereonly managers can approveexpenses n employeescan submrqsts xplain whetheran employee can indirectlyapprove??"
+    },
+    {
+      "id": "logical_1_L5_V2",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "tbh ina system where only managerscan approveexpenses andemployees can SUNMREQUESTS, explain whether an employeecan indirectlyappr theirown ty"
+    },
+    {
+      "id": "logical_1_L5_V3",
+      "base_id": "logical_1",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "fyi ina systemwhere only managers can approveexpenses n employeescan sbmt requests explanwhether an employee canindirectly approvetheir own haha"
+    },
+    {
+      "id": "logical_2_L0",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A rule states that all confidential files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A rule states that all confidential files myst be encrypted, and all encrypted files require authentication. Explain whether a confidential file can ever be adcessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A rule states that all confidential files muat be encrypted, and all encrypted files requkre authentication. Explain whether a confidential file can ever be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L1_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A ryle states that all confidenyial files must be encrypted, and all encrypted files require authentication. Explain whether a confidential file can evwr be accessed without authentication."
+    },
+    {
+      "id": "logical_2_L2_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a rule states that aol confidential fkles must be encrypted and all encrypted files require authentication explain whether a confidential file can ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L2_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a rule states that all confidential files must be encrypted and all encrypted files require authentication explain whether a confidential file cqn ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L2_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a rule states that all confidential files must be encrypted and all encrypted files require authentication explain whether a confidential file can ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a rupe states that all confidential files must b encrypted n all encrypted files require authentication xplain whether a confidential file czn ever be accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a rule sgts that all confidential files must be encrypted n all envrypted files require authentication explain whether a cobfidential file can ever b accessed without authentication"
+    },
+    {
+      "id": "logical_2_L3_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a rule states that all confidential files must b encrypted n all encrypted files require authentication xplain whether a confiden file csn ever b accessed w/o authentication"
+    },
+    {
+      "id": "logical_2_L4_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "arule states that all confidentkal filesmust be encrypted n all encryptedfiles requireauthentication xplainwhether aconfidential file can everbe accessed withoutauthentication"
+    },
+    {
+      "id": "logical_2_L4_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "arule statesthat allconfiden filesmust b encryptedand all encrypted files requireauthentic explain whrther aconfidential filecan ever beaccessed w/o authentication"
+    },
+    {
+      "id": "logical_2_L4_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a rule statesthat all confidential files must b encrypted,and all encrypted files requireauthentication xplain whethera confidential file can evdrb accessedw/o authentication"
+    },
+    {
+      "id": "logical_2_L5_V1",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen arule stat thatall confidential filesmust beencrypted, n all encryptedfiles require authentic explain tbh"
+    },
+    {
+      "id": "logical_2_L5_V2",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "so like arule statesthat all confidential flsmust be encryptedand allencryp files require authenticztionexplain whether ty"
+    },
+    {
+      "id": "logical_2_L5_V3",
+      "base_id": "logical_2",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "alright arule statesthat all confidential fil mustb encryptedand all encryptedfiles require authenticationexplain ty"
+    },
+    {
+      "id": "logical_3_L0",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a workflow where Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L1_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a workflow wjere Task B can start only after Task A finishes, explain whether parallel exevution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L1_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a workflow where Task B can start only after Task A fimishes, explain whether parallel execution is logically possible under any cohdition."
+    },
+    {
+      "id": "logical_3_L1_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a workflow wheee Task B can start only after Task A finishes, explain whether parallel execution is logically possible under any condition."
+    },
+    {
+      "id": "logical_3_L2_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a workflow where task b czn start only after task a finishes explain whether parallel execution is logically possinle under any condktion."
+    },
+    {
+      "id": "logical_3_L2_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a workflow where task b can statt only after task a finishws explain whether parallel execution is logically possible under ahy condition."
+    },
+    {
+      "id": "logical_3_L2_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a workflow where task b can start only after task a finishes explain wheyher paraplel execution is logically possible under any condition"
+    },
+    {
+      "id": "logical_3_L3_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a workflow where task b can start only after task a finishes explain whether paraolel execution is logically possible under any condition"
+    },
+    {
+      "id": "logical_3_L3_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a workflow where task b can start only aftr task a finishes explain wget parallel execytion is logically possi under any condition"
+    },
+    {
+      "id": "logical_3_L3_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a workflow whw task b can start only aftr task a fnshs exolain whether parallel xctn is logically pssbl under any condition."
+    },
+    {
+      "id": "logical_3_L4_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "in a workflow where task b cznstart onlyafter task a finishes,explain whetparallel executionis logicallypossible under any condition."
+    },
+    {
+      "id": "logical_3_L4_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ina workflow wheretask b can startonly aftertask afinishes, xpln whetherparallel execution islogically possible under any condition"
+    },
+    {
+      "id": "logical_3_L4_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "in a workfwhere taskb can start only aftr tqska finishes,explain whetherparallel executionis logicallypossible underany condition"
+    },
+    {
+      "id": "logical_3_L5_V1",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "HONESTLY in awrkflw WHERETASK bcan startonly after taska finishesexplain whether patallel execution!!"
+    },
+    {
+      "id": "logical_3_L5_V2",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "quick note ina workflow wheretask b can start only aftertask a finishes, explain whether ty"
+    },
+    {
+      "id": "logical_3_L5_V3",
+      "base_id": "logical_3",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hmm in a workflow wheretask b canstart ONLYAFGER task a FINISHESXPLAIN whet got it?"
+    },
+    {
+      "id": "logical_4_L0",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A company policy allows remote work only fpr employees with more than one year of experience. Explain whether an intwrn can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A company policy allows remote work only for employees with more than one year of experience. Explain whether an intern can qualify under any lohical interpretation."
+    },
+    {
+      "id": "logical_4_L1_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A company policy allows remote work only for employees with moee tahn one yeqr of experience. Explain whether an inteen can quaoify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L2_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a company policy allows renote work only for employees with more than one year of experience explain whether an intern can qjalify unddr any logical interpretation"
+    },
+    {
+      "id": "logical_4_L2_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a company policy allpws remote work only for employees with more than one year of experience. explain whether an intern can qualify under any logical interpretation."
+    },
+    {
+      "id": "logical_4_L2_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a company policy alloes remote work onoy for employees with more than one year of experience explain whether an intern can qualify under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L3_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a company policy allows remote work only fpr employees with more than one year of experience xplain whether an intern can qlfy under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L3_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a company policy allows remote work only for emoloyees with more than one year of experience. explain whether an intern can qualify under any lotical interlretation."
+    },
+    {
+      "id": "logical_4_L3_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a company policy allows remote work only for employees with more than one year of experience xplain whether an intern can qualify under any logical interpretation"
+    },
+    {
+      "id": "logical_4_L4_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a compamypokicy llws remo workonly foremployees withmore than one yearof experience explainwhether an intern canqualify undany logical interpretation"
+    },
+    {
+      "id": "logical_4_L4_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a company policy allows remote workonly foremployees w/ morethan one ywarof experience. explwether aninte canqualify underany logical interpret"
+    },
+    {
+      "id": "logical_4_L4_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "acompany policy allowsremote work only 4 employeesw/ morethan one yezrof experience xplain whether anintern czn qualify underany logicalntrprttn"
+    },
+    {
+      "id": "logical_4_L5_V1",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo a comppolicy allows remotework onlyfor employees wkth morethan one yearof experience. xplain WHETHER got it?"
+    },
+    {
+      "id": "logical_4_L5_V2",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "honestly acompany policyallo remotework only4 employees w/ moeethqn ONEYEAR ofexperience xplain??"
+    },
+    {
+      "id": "logical_4_L5_V3",
+      "base_id": "logical_4",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "OK so a company piliallows remote work only 4 employees withmore than one year of experience. explain whether an appreciate it"
+    },
+    {
+      "id": "logical_5_L0",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users afe eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Given that all premium users receive priority support and some priority usets receove refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L1_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds."
+    },
+    {
+      "id": "logical_5_L2_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "given that all premium users receive priority sulport and some priority users receive refunds, explain whether all premium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L2_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "given thqt all premium users receive priority support and some priority users receive refunds explain whether all premium users afe eligible for refunds."
+    },
+    {
+      "id": "logical_5_L2_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "given that all premium users receive priority support and some priority users receive refunds, explain whether all premium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L3_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "gvn that all premium users receive priority support and some priority srs receive refunds xplain whether all prem srs are eligible flr refundd"
+    },
+    {
+      "id": "logical_5_L3_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "given that all premium drs receive priority support n some priority use receive refunds xplain whet aol premium users r eligible for refunds"
+    },
+    {
+      "id": "logical_5_L3_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "given taht all prmm use receife prioriry support abd sone priority usets receive refunds xplain whether all premuum users r eligible 4 refunds"
+    },
+    {
+      "id": "logical_5_L4_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "given that allpremium users receivepriofity supportn somepriority users receive rfndsxplain whetherall premiumusers are eligkble firrefunds"
+    },
+    {
+      "id": "logical_5_L4_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "givthat allpremium usersreceive priorsupport nsome priority users receiverefu explain whetherall premiumusers are eligible4 refunds"
+    },
+    {
+      "id": "logical_5_L4_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "given that allprmm usetsrece prioritysupport n somepriority usersreceive refundsexplain whether aklpremium users are eligible for refunds"
+    },
+    {
+      "id": "logical_5_L5_V1",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "listen given thatall premiumusers rcvpriority support andsome priorityusers receive refundsexplain whether all lol"
+    },
+    {
+      "id": "logical_5_L5_V2",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "yo GIVEN that all peemusers receive PRIORITYSPPRT an somepriority usersrecrive refundsxplain whether allpremium??"
+    },
+    {
+      "id": "logical_5_L5_V3",
+      "base_id": "logical_5",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "btw given that all premium users receive prioesupport n some priorityusers receive refunds,xplain thanks"
+    },
+    {
+      "id": "logical_6_L0",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain whether a system with role-based access comtrol can prevent privilege escalation if temporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explan whether a system with role-based acvess control can prevent privilege escalation if trmporary roles are allowed."
+    },
+    {
+      "id": "logical_6_L1_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain whether a system with role-based access control can prevent privilege escalation if temporary roles aee allowed."
+    },
+    {
+      "id": "logical_6_L2_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain whether a system with role-based access control can prevent privilege escalation if temporary roles are allowed"
+    },
+    {
+      "id": "logical_6_L2_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain whether a system with role-based accdss control can prevent privilege escalation if temporary roles are allowed"
+    },
+    {
+      "id": "logical_6_L2_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain whether a system wth role-based acxess congrol can prevent privilege escalation if temporary roles are allpwed"
+    },
+    {
+      "id": "logical_6_L3_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "xplain whether a system with role-based access control can prevent privilege escalation if temporary roles r allowee"
+    },
+    {
+      "id": "logical_6_L3_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "explain whetger a system with rlvsd access control can prevent privilege escalation if temporary roles r plwd"
+    },
+    {
+      "id": "logical_6_L3_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "xplain whether a system w/ role-basrd access control can prev prvlg escalation if temporary rlles are allowed"
+    },
+    {
+      "id": "logical_6_L4_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplainwhether a system w/role-based acce controlcan prevent privilescalation iftemporary roles areallowed"
+    },
+    {
+      "id": "logical_6_L4_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "exllainwhether a system with role-based access control can prevent privilegeescalat if temporroles r aplowed"
+    },
+    {
+      "id": "logical_6_L4_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explwhether a system with role-basedavcess control can prevent privilegeescalayion if tmprry roles are allowec"
+    },
+    {
+      "id": "logical_6_L5_V1",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "just saying expl WHETHERA syst W/ roke-based accesscontrol can precentprivilege tho"
+    },
+    {
+      "id": "logical_6_L5_V2",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi xplainwhether asystem with role-based access controlcan PRECENTPRIVILEGE tbh"
+    },
+    {
+      "id": "logical_6_L5_V3",
+      "base_id": "logical_6",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "tbh explain whethera system with role-basedaccess CNTRL can preventpeivilege got it?"
+    },
+    {
+      "id": "logical_7_L0",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whether accuracy can lohically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "If a machine learning model is retfained whenevrr accuracy drops, explan whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L1_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "If a machine learning model is retrained whenever accuracy drops, explain whetehr accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L2_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "if a machine learning model is retrained whenever acduracy drops, explain whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L2_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "if a machine learning model is retrained whenever accuracy drops explain whether accuracy can logocally remain permanently stable"
+    },
+    {
+      "id": "logical_7_L2_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "if a machine learning model is retrained whenever adcuracy drops explain whether accuracy can logically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L3_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "if a machine learn model is retrained whenever accuracy drops xplain whether accuracy can logically remaun permanently stbl"
+    },
+    {
+      "id": "logical_7_L3_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "if a macy learning model is retrained whenever accur drops xplain whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L3_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "if a machine learning model is rrrnd whenever accuracy drops, ezpl whether accuracy can logically remain permanently stable"
+    },
+    {
+      "id": "logical_7_L4_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ifa machinelearning mod is retrainedwhenever accuracy drlpsxplain whetheraccuracy can logica remain permanentlystable"
+    },
+    {
+      "id": "logical_7_L4_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "ifa machine learningmodel is retrained whene accurqcy drops, xplainwhether accuracy canlogically remain permanentlystbl"
+    },
+    {
+      "id": "logical_7_L4_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "if amachine learningmodel is retrained whenever accuracydro explainwhether accuracy canlogically remain permanently stable."
+    },
+    {
+      "id": "logical_7_L5_V1",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "alright if a mzchnlearning MODELIS retrained whenever accuracydrips xplainwhthr accuracycan??"
+    },
+    {
+      "id": "logical_7_L5_V2",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just saying ifa machinelearning modelis retrained wheneveraccuracy drps explan haha"
+    },
+    {
+      "id": "logical_7_L5_V3",
+      "base_id": "logical_7",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "basically if a machinelearning model isretrained whenever accuracydrops, xplainwhthr lol"
+    },
+    {
+      "id": "logical_8_L0",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "A library allows borrowing only if books are available and membership is active. Explain whether avsilability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L1_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "A library allows borrowing onky if books are available abd membership is active. Explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "a library allows borrowing only if books are available and membership is acrive. explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "a library allows borrowing only if books afe available and membership is active. explain whether availability alone is sufficient."
+    },
+    {
+      "id": "logical_8_L2_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "a library allows borrowing only if books are available and membership is active explain whether availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L3_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "a library allows brrwng only if books afe available n mmbrshp is active. xplain whether availabi alone is suffici"
+    },
+    {
+      "id": "logical_8_L3_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "a lbrry aloows borrowing only if books r available n membership is active exppain whegher availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L3_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "a library allows borrowin only if books r available n membership is acti explain whether availability alone is sufficient"
+    },
+    {
+      "id": "logical_8_L4_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "a library allowsborrowing onlyif books ravailable and membershipis active explain whetheravailability alone issufficient"
+    },
+    {
+      "id": "logical_8_L4_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "a library allowsborrowing only if books afe availablen members isactive xplainwhether availability alois sufficient"
+    },
+    {
+      "id": "logical_8_L4_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "a library allows borrowing onlyif booksr vlbln membershipis activexplain whetheravailability alone is suffici"
+    },
+    {
+      "id": "logical_8_L5_V1",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "LISTEN a lbrryalloqs borrowingonly if booksare availablen membership is ok?"
+    },
+    {
+      "id": "logical_8_L5_V2",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "fyi a library allowsborrowing only if books r availableand membership is appreciate it"
+    },
+    {
+      "id": "logical_8_L5_V3",
+      "base_id": "logical_8",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "hey a lbryklws borrowingonly ifbks aeeavailable andmembership IS pls?"
+    },
+    {
+      "id": "logical_9_L0",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "In a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "In a hierarchy whete seniors can override juniors, explain whether contrsdictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L1_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "In a hierarchy where seniors czn override juniors, explain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L2_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "in a hierarchy where seniors can override juniors, explain whether contradictory decisions can still occur"
+    },
+    {
+      "id": "logical_9_L2_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "in a hierarchy whrre seniors can override juniors explain whether contradictory decisions can still occur"
+    },
+    {
+      "id": "logical_9_L2_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "in a hierarchy where seniors can ovrrride juniors explain whether contradictory decisions can srill occur."
+    },
+    {
+      "id": "logical_9_L3_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "in a hierarchy where seniors cqn override juniors explsin whether contradictory decisiohs can still occur"
+    },
+    {
+      "id": "logical_9_L3_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "in a hierarchy where seniors can override juniors xplain whether contradictory decisions can still occur."
+    },
+    {
+      "id": "logical_9_L3_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "in a hierarchy whr seni can override juniofs explain whether cntrdctry decisions can stkl odcur"
+    },
+    {
+      "id": "logical_9_L4_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "ina hierarchy whereseniors canoverride jjnrs explain whether contradicdecisions canstill occur"
+    },
+    {
+      "id": "logical_9_L4_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "in a hierarwhere swniors canoverride juniors xplain whethercontradictory decisionscan still occur."
+    },
+    {
+      "id": "logical_9_L4_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "in ahierarchy whereseniors canoverride juniors explainwhether contradictory decisionscan still occur."
+    },
+    {
+      "id": "logical_9_L5_V1",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo ina hierarchy where seni CANOVERR jnrsexplain tho"
+    },
+    {
+      "id": "logical_9_L5_V2",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "uhh in A hierarchy whereseniors can overr juniorsxplain got it?"
+    },
+    {
+      "id": "logical_9_L5_V3",
+      "base_id": "logical_9",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "listen in ahierarchy whwseniors cznoverride juniorsexplain whether contradictorydecisions tbh"
+    },
+    {
+      "id": "logical_10_L0",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 0,
+      "variant": 0,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning."
+    },
+    {
+      "id": "logical_10_L1_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 1,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, usihg logical reasoning."
+    },
+    {
+      "id": "logical_10_L1_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 2,
+      "prompt": "Explain whether adding mire validation rules can ever reduce system reliability, using logidal reasoning."
+    },
+    {
+      "id": "logical_10_L1_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 1,
+      "variant": 3,
+      "prompt": "Explain whether adding more validation rules can ever reduce system reliability, using logical reasoning."
+    },
+    {
+      "id": "logical_10_L2_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 1,
+      "prompt": "explain whether adding more validation rules can ever reduce system reliability using logical reasoning."
+    },
+    {
+      "id": "logical_10_L2_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 2,
+      "prompt": "explain whether adding more validation rules can ever reduce system reliability, using logical reasoning"
+    },
+    {
+      "id": "logical_10_L2_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 2,
+      "variant": 3,
+      "prompt": "explain whether adding more valieation rules can ever reduce system reliability using logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 1,
+      "prompt": "xplain whether adding more validation rul can ever reduce system reliability usimg logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 2,
+      "prompt": "xplain whether adding more validation rules can ever reduce sys reliabi uskng logical reasoning"
+    },
+    {
+      "id": "logical_10_L3_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 3,
+      "variant": 3,
+      "prompt": "xpln whetr adding more valifation rjls can ever reduce system reliability using logical reasoning."
+    },
+    {
+      "id": "logical_10_L4_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 1,
+      "prompt": "xplainwhet ddngmore validationrules canever redusystem reliability usin logicalreasoning"
+    },
+    {
+      "id": "logical_10_L4_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 2,
+      "prompt": "xpln whetheradding morevldtn rules csnever reduce systemreliability usinglogical reasoning."
+    },
+    {
+      "id": "logical_10_L4_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 4,
+      "variant": 3,
+      "prompt": "explain whetheradding morevalidation rules can ever reduce systemrlblty usinglotical reasoning."
+    },
+    {
+      "id": "logical_10_L5_V1",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 1,
+      "prompt": "yo expl whthradding morevalidation rulescan everredice system yeah?"
+    },
+    {
+      "id": "logical_10_L5_V2",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 2,
+      "prompt": "just SAYING xplainwhether addingmpre validationrules canever reduce systemreliability ty"
+    },
+    {
+      "id": "logical_10_L5_V3",
+      "base_id": "logical_10",
+      "category": "logical",
+      "drift_level": 5,
+      "variant": 3,
+      "prompt": "lowkey xplainwhether addingmore validation rulescan everreduce syst got it?"
+    }
+  ]
+}

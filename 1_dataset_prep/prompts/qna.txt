@@ -1,0 +1,10 @@
+Why is response consistency more important than creativity in safety-critical AI systems? Explain with implications.
+How does prompt phrasing influence the reliability of large language model outputs?
+Why can excessive optimization reduce system robustness in machine learning pipelines?
+How does ambiguity in requirements affect software system quality?
+Why is explainability important when deploying AI in regulated industries?
+How does model overconfidence impact user trust in AI systems?
+Why is evaluation beyond accuracy necessary for modern AI models?
+How does scaling model size affect reasoning reliability rather than just performance?
+Why can longer responses increase the risk of logical inconsistency in LLMs?
+How does prompt drift affect downstream applications that rely on automated decision-making?
