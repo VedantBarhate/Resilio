@@ -2071,7 +2071,7 @@
         "prompt_similarity": 95.74,
         "response_similarity": 78.3,
         "scores": {
-            "commentary to=assistant{": "factual_correctness",
+            "factual_correctness": 75,
             "logical_correctness": 55,
             "reasoning_coherence": 55,
             "sentiment_label_correctness": 100,

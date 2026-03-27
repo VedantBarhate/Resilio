@@ -2638,7 +2638,11 @@
         "prompt_similarity": 77.61,
         "response_similarity": 77.95,
         "scores": {
-            "commentary to=assistant{": false
+            "factual_correctness": 40,
+            "logical_correctness": 50,
+            "reasoning_coherence": 40,
+            "sentiment_label_correctness": 30,
+            "manner_of_language": 30
         }
     },
     {

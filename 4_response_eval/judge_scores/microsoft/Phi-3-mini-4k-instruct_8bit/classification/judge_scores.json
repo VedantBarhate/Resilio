@@ -2050,7 +2050,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 83.87,
         "scores": {
-            "commentary to=assistant{": false
+            "factual_correctness": 75,
+            "logical_correctness": 60,
+            "reasoning_coherence": 60,
+            "sentiment_label_correctness": 10,
+            "manner_of_language": 60
         }
     },
     {

@@ -1,0 +1,1060 @@
+[
+    {
+        "Drift_Level": 0,
+        "Prompt 1 (classification)": 75.75,
+        "Prompt 1 (logical)": 95.0,
+        "Prompt 1 (qna)": 93.8,
+        "Prompt 1 (reasoning)": 93.25,
+        "Prompt 2 (classification)": 95.0,
+        "Prompt 2 (logical)": 100.0,
+        "Prompt 2 (qna)": 94.75,
+        "Prompt 2 (reasoning)": 92.4,
+        "Prompt 3 (classification)": 95.0,
+        "Prompt 3 (logical)": 95.25,
+        "Prompt 3 (qna)": 95.0,
+        "Prompt 3 (reasoning)": 94.65,
+        "Prompt 4 (classification)": 95.0,
+        "Prompt 4 (logical)": 72.0,
+        "Prompt 4 (qna)": 95.0,
+        "Prompt 4 (reasoning)": 94.55,
+        "Prompt 5 (classification)": 92.5,
+        "Prompt 5 (logical)": 91.5,
+        "Prompt 5 (qna)": 93.95,
+        "Prompt 5 (reasoning)": 82.5,
+        "Prompt 6 (classification)": 91.75,
+        "Prompt 6 (logical)": 95.0,
+        "Prompt 6 (qna)": 90.0,
+        "Prompt 6 (reasoning)": 95.25,
+        "Prompt 7 (classification)": 85.0,
+        "Prompt 7 (logical)": 95.25,
+        "Prompt 7 (qna)": 94.75,
+        "Prompt 7 (reasoning)": 90.0,
+        "Prompt 8 (classification)": 27.75,
+        "Prompt 8 (logical)": 100.0,
+        "Prompt 8 (qna)": 89.65,
+        "Prompt 8 (reasoning)": 82.5,
+        "Prompt 9 (classification)": 95.0,
+        "Prompt 9 (logical)": 88.0,
+        "Prompt 9 (qna)": 90.0,
+        "Prompt 9 (reasoning)": 95.0,
+        "Prompt 10 (classification)": 95.0,
+        "Prompt 10 (logical)": 85.75,
+        "Prompt 10 (qna)": 95.25,
+        "Prompt 10 (reasoning)": 95.0
+    },
+    {
+        "Drift_Level": 1,
+        "Prompt 1 (classification)": {
+            "V1": 27.5,
+            "V2": 68.0,
+            "V3": 78.75
+        },
+        "Prompt 1 (logical)": {
+            "V1": 91.0,
+            "V2": 91.5,
+            "V3": 84.5
+        },
+        "Prompt 1 (qna)": {
+            "V1": 91.75,
+            "V2": 93.25,
+            "V3": 91.55
+        },
+        "Prompt 1 (reasoning)": {
+            "V1": 92.7,
+            "V2": 88.7,
+            "V3": 88.6
+        },
+        "Prompt 2 (classification)": {
+            "V1": 93.75,
+            "V2": 92.0,
+            "V3": 96.55
+        },
+        "Prompt 2 (logical)": {
+            "V1": 95.25,
+            "V2": 93.45,
+            "V3": 92.75
+        },
+        "Prompt 2 (qna)": {
+            "V1": 93.7,
+            "V2": 91.8,
+            "V3": 92.15
+        },
+        "Prompt 2 (reasoning)": {
+            "V1": 90.25,
+            "V2": 86.85,
+            "V3": 88.8
+        },
+        "Prompt 3 (classification)": {
+            "V1": 97.5,
+            "V2": 93.75,
+            "V3": 97.5
+        },
+        "Prompt 3 (logical)": {
+            "V1": 95.25,
+            "V2": 100.0,
+            "V3": 93.5
+        },
+        "Prompt 3 (qna)": {
+            "V1": 91.2,
+            "V2": 92.85,
+            "V3": 83.5
+        },
+        "Prompt 3 (reasoning)": {
+            "V1": 93.35,
+            "V2": 93.65,
+            "V3": 93.15
+        },
+        "Prompt 4 (classification)": {
+            "V1": 97.5,
+            "V2": 94.65,
+            "V3": 95.0
+        },
+        "Prompt 4 (logical)": {
+            "V1": 84.5,
+            "V2": 95.0,
+            "V3": 67.0
+        },
+        "Prompt 4 (qna)": {
+            "V1": 91.2,
+            "V2": 93.8,
+            "V3": 89.0
+        },
+        "Prompt 4 (reasoning)": {
+            "V1": 91.45,
+            "V2": 91.35,
+            "V3": 89.3
+        },
+        "Prompt 5 (classification)": {
+            "V1": 91.75,
+            "V2": 94.5,
+            "V3": 91.25
+        },
+        "Prompt 5 (logical)": {
+            "V1": 86.25,
+            "V2": 91.5,
+            "V3": 82.25
+        },
+        "Prompt 5 (qna)": {
+            "V1": 93.7,
+            "V2": 93.7,
+            "V3": 95.0
+        },
+        "Prompt 5 (reasoning)": {
+            "V1": 87.5,
+            "V2": 90.3,
+            "V3": 91.1
+        },
+        "Prompt 6 (classification)": {
+            "V1": 92.75,
+            "V2": 92.0,
+            "V3": 91.7
+        },
+        "Prompt 6 (logical)": {
+            "V1": 90.55,
+            "V2": 87.35,
+            "V3": 84.5
+        },
+        "Prompt 6 (qna)": {
+            "V1": 88.2,
+            "V2": 87.75,
+            "V3": 91.8
+        },
+        "Prompt 6 (reasoning)": {
+            "V1": 83.75,
+            "V2": 94.75,
+            "V3": 86.6
+        },
+        "Prompt 7 (classification)": {
+            "V1": 89.5,
+            "V2": 81.5,
+            "V3": 26.5
+        },
+        "Prompt 7 (logical)": {
+            "V1": 82.25,
+            "V2": 76.75,
+            "V3": 89.0
+        },
+        "Prompt 7 (qna)": {
+            "V1": 94.5,
+            "V2": 95.25,
+            "V3": 89.05
+        },
+        "Prompt 7 (reasoning)": {
+            "V1": 89.3,
+            "V2": 93.0,
+            "V3": 90.7
+        },
+        "Prompt 8 (classification)": {
+            "V1": 92.9,
+            "V2": 71.0,
+            "V3": 96.25
+        },
+        "Prompt 8 (logical)": {
+            "V1": 95.0,
+            "V2": 95.0,
+            "V3": 94.0
+        },
+        "Prompt 8 (qna)": {
+            "V1": 86.0,
+            "V2": 78.7,
+            "V3": 76.25
+        },
+        "Prompt 8 (reasoning)": {
+            "V1": 88.8,
+            "V2": 82.5,
+            "V3": 83.0
+        },
+        "Prompt 9 (classification)": {
+            "V1": 92.75,
+            "V2": 94.3,
+            "V3": 93.25
+        },
+        "Prompt 9 (logical)": {
+            "V1": 95.25,
+            "V2": 82.25,
+            "V3": 82.25
+        },
+        "Prompt 9 (qna)": {
+            "V1": 87.0,
+            "V2": 90.0,
+            "V3": 89.2
+        },
+        "Prompt 9 (reasoning)": {
+            "V1": 64.5,
+            "V2": 90.25,
+            "V3": 87.0
+        },
+        "Prompt 10 (classification)": {
+            "V1": 40.5,
+            "V2": 84.75,
+            "V3": 62.0
+        },
+        "Prompt 10 (logical)": {
+            "V1": 93.8,
+            "V2": 93.2,
+            "V3": 94.1
+        },
+        "Prompt 10 (qna)": {
+            "V1": 93.3,
+            "V2": 91.2,
+            "V3": 91.2
+        },
+        "Prompt 10 (reasoning)": {
+            "V1": 94.3,
+            "V2": 93.4,
+            "V3": 93.9
+        }
+    },
+    {
+        "Drift_Level": 2,
+        "Prompt 1 (classification)": {
+            "V1": 71.0,
+            "V2": 93.75,
+            "V3": 81.75
+        },
+        "Prompt 1 (logical)": {
+            "V1": 92.45,
+            "V2": 91.2,
+            "V3": 82.75
+        },
+        "Prompt 1 (qna)": {
+            "V1": 91.25,
+            "V2": 83.5,
+            "V3": 89.75
+        },
+        "Prompt 1 (reasoning)": {
+            "V1": 93.15,
+            "V2": 91.35,
+            "V3": 88.35
+        },
+        "Prompt 2 (classification)": {
+            "V1": 92.95,
+            "V2": 97.5,
+            "V3": 91.75
+        },
+        "Prompt 2 (logical)": {
+            "V1": 95.25,
+            "V2": 95.25,
+            "V3": 95.25
+        },
+        "Prompt 2 (qna)": {
+            "V1": 93.25,
+            "V2": 54.25,
+            "V3": 91.2
+        },
+        "Prompt 2 (reasoning)": {
+            "V1": 92.85,
+            "V2": 85.75,
+            "V3": 88.25
+        },
+        "Prompt 3 (classification)": {
+            "V1": 88.75,
+            "V2": 97.5,
+            "V3": 89.0
+        },
+        "Prompt 3 (logical)": {
+            "V1": 67.75,
+            "V2": 46.75,
+            "V3": 95.0
+        },
+        "Prompt 3 (qna)": {
+            "V1": 88.75,
+            "V2": 83.5,
+            "V3": 82.0
+        },
+        "Prompt 3 (reasoning)": {
+            "V1": 86.7,
+            "V2": 84.25,
+            "V3": 82.5
+        },
+        "Prompt 4 (classification)": {
+            "V1": 94.6,
+            "V2": 91.75,
+            "V3": 97.25
+        },
+        "Prompt 4 (logical)": {
+            "V1": 82.25,
+            "V2": 94.0,
+            "V3": 64.5
+        },
+        "Prompt 4 (qna)": {
+            "V1": 91.8,
+            "V2": 90.0,
+            "V3": 94.9
+        },
+        "Prompt 4 (reasoning)": {
+            "V1": 89.0,
+            "V2": 87.1,
+            "V3": 80.8
+        },
+        "Prompt 5 (classification)": {
+            "V1": 32.5,
+            "V2": 77.25,
+            "V3": 91.75
+        },
+        "Prompt 5 (logical)": {
+            "V1": 89.25,
+            "V2": 95.25,
+            "V3": 85.75
+        },
+        "Prompt 5 (qna)": {
+            "V1": 93.7,
+            "V2": 93.75,
+            "V3": 88.9
+        },
+        "Prompt 5 (reasoning)": {
+            "V1": 90.25,
+            "V2": 93.35,
+            "V3": 84.25
+        },
+        "Prompt 6 (classification)": {
+            "V1": 86.25,
+            "V2": 88.25,
+            "V3": 94.5
+        },
+        "Prompt 6 (logical)": {
+            "V1": 93.5,
+            "V2": 91.5,
+            "V3": 81.0
+        },
+        "Prompt 6 (qna)": {
+            "V1": 90.75,
+            "V2": 88.75,
+            "V3": 92.95
+        },
+        "Prompt 6 (reasoning)": {
+            "V1": 92.3,
+            "V2": 91.35,
+            "V3": 84.95
+        },
+        "Prompt 7 (classification)": {
+            "V1": 81.5,
+            "V2": 86.25,
+            "V3": 88.0
+        },
+        "Prompt 7 (logical)": {
+            "V1": 86.9,
+            "V2": 84.0,
+            "V3": 88.8
+        },
+        "Prompt 7 (qna)": {
+            "V1": 94.5,
+            "V2": 93.7,
+            "V3": 89.4
+        },
+        "Prompt 7 (reasoning)": {
+            "V1": 93.0,
+            "V2": 92.65,
+            "V3": 93.15
+        },
+        "Prompt 8 (classification)": {
+            "V1": 81.75,
+            "V2": 95.0,
+            "V3": 93.75
+        },
+        "Prompt 8 (logical)": {
+            "V1": 91.0,
+            "V2": 86.25,
+            "V3": 68.25
+        },
+        "Prompt 8 (qna)": {
+            "V1": 91.75,
+            "V2": 86.0,
+            "V3": 83.5
+        },
+        "Prompt 8 (reasoning)": {
+            "V1": 82.5,
+            "V2": 87.35,
+            "V3": 87.05
+        },
+        "Prompt 9 (classification)": {
+            "V1": 90.5,
+            "V2": 92.0,
+            "V3": 90.5
+        },
+        "Prompt 9 (logical)": {
+            "V1": 93.4,
+            "V2": 88.0,
+            "V3": 88.3
+        },
+        "Prompt 9 (qna)": {
+            "V1": 36.25,
+            "V2": 39.75,
+            "V3": 36.25
+        },
+        "Prompt 9 (reasoning)": {
+            "V1": 93.15,
+            "V2": 88.35,
+            "V3": 91.35
+        },
+        "Prompt 10 (classification)": {
+            "V1": 49.0,
+            "V2": 79.25,
+            "V3": 23.5
+        },
+        "Prompt 10 (logical)": {
+            "V1": 84.5,
+            "V2": 88.45,
+            "V3": 87.45
+        },
+        "Prompt 10 (qna)": {
+            "V1": 54.75,
+            "V2": 91.2,
+            "V3": 90.0
+        },
+        "Prompt 10 (reasoning)": {
+            "V1": 88.8,
+            "V2": 93.0,
+            "V3": 90.8
+        }
+    },
+    {
+        "Drift_Level": 3,
+        "Prompt 1 (classification)": {
+            "V1": 37.75,
+            "V2": 93.75,
+            "V3": 95.75
+        },
+        "Prompt 1 (logical)": {
+            "V1": 76.75,
+            "V2": 82.25,
+            "V3": 66.25
+        },
+        "Prompt 1 (qna)": {
+            "V1": 92.35,
+            "V2": 83.5,
+            "V3": 92.35
+        },
+        "Prompt 1 (reasoning)": {
+            "V1": 89.05,
+            "V2": 82.5,
+            "V3": 83.0
+        },
+        "Prompt 2 (classification)": {
+            "V1": 41.25,
+            "V2": 85.25,
+            "V3": 97.5
+        },
+        "Prompt 2 (logical)": {
+            "V1": 95.25,
+            "V2": 94.0,
+            "V3": 95.0
+        },
+        "Prompt 2 (qna)": {
+            "V1": 88.25,
+            "V2": 91.75,
+            "V3": 88.25
+        },
+        "Prompt 2 (reasoning)": {
+            "V1": 82.5,
+            "V2": 92.75,
+            "V3": 90.0
+        },
+        "Prompt 3 (classification)": {
+            "V1": 95.0,
+            "V2": 97.5,
+            "V3": 96.25
+        },
+        "Prompt 3 (logical)": {
+            "V1": 100.0,
+            "V2": 55.75,
+            "V3": 52.5
+        },
+        "Prompt 3 (qna)": {
+            "V1": 92.85,
+            "V2": 76.85,
+            "V3": 90.0
+        },
+        "Prompt 3 (reasoning)": {
+            "V1": 90.8,
+            "V2": 88.2,
+            "V3": 91.35
+        },
+        "Prompt 4 (classification)": {
+            "V1": 91.75,
+            "V2": 91.9,
+            "V3": 95.0
+        },
+        "Prompt 4 (logical)": {
+            "V1": 84.5,
+            "V2": 93.95,
+            "V3": 93.0
+        },
+        "Prompt 4 (qna)": {
+            "V1": 93.8,
+            "V2": 92.85,
+            "V3": 91.75
+        },
+        "Prompt 4 (reasoning)": {
+            "V1": 82.5,
+            "V2": 88.4,
+            "V3": 94.2
+        },
+        "Prompt 5 (classification)": {
+            "V1": 95.0,
+            "V2": 97.6,
+            "V3": 95.0
+        },
+        "Prompt 5 (logical)": {
+            "V1": 82.75,
+            "V2": 52.0,
+            "V3": 49.25
+        },
+        "Prompt 5 (qna)": {
+            "V1": 88.85,
+            "V2": 90.95,
+            "V3": 63.0
+        },
+        "Prompt 5 (reasoning)": {
+            "V1": 82.5,
+            "V2": 91.35,
+            "V3": 78.0
+        },
+        "Prompt 6 (classification)": {
+            "V1": 87.25,
+            "V2": 88.8,
+            "V3": 89.4
+        },
+        "Prompt 6 (logical)": {
+            "V1": 93.1,
+            "V2": 91.3,
+            "V3": 78.75
+        },
+        "Prompt 6 (qna)": {
+            "V1": 92.35,
+            "V2": 56.25,
+            "V3": 36.5
+        },
+        "Prompt 6 (reasoning)": {
+            "V1": 84.05,
+            "V2": 91.45,
+            "V3": 93.15
+        },
+        "Prompt 7 (classification)": {
+            "V1": 85.5,
+            "V2": 85.75,
+            "V3": 96.65
+        },
+        "Prompt 7 (logical)": {
+            "V1": 89.0,
+            "V2": 86.0,
+            "V3": 86.75
+        },
+        "Prompt 7 (qna)": {
+            "V1": 83.5,
+            "V2": 42.25,
+            "V3": 92.95
+        },
+        "Prompt 7 (reasoning)": {
+            "V1": 82.5,
+            "V2": 93.15,
+            "V3": 80.75
+        },
+        "Prompt 8 (classification)": {
+            "V1": 29.75,
+            "V2": 93.75,
+            "V3": 84.25
+        },
+        "Prompt 8 (logical)": {
+            "V1": 90.0,
+            "V2": 63.0,
+            "V3": 91.5
+        },
+        "Prompt 8 (qna)": {
+            "V1": 78.6,
+            "V2": 84.25,
+            "V3": 83.5
+        },
+        "Prompt 8 (reasoning)": {
+            "V1": 88.15,
+            "V2": 87.3,
+            "V3": 86.95
+        },
+        "Prompt 9 (classification)": {
+            "V1": 93.25,
+            "V2": 95.45,
+            "V3": 88.8
+        },
+        "Prompt 9 (logical)": {
+            "V1": 87.35,
+            "V2": 82.25,
+            "V3": 58.0
+        },
+        "Prompt 9 (qna)": {
+            "V1": 43.5,
+            "V2": 41.25,
+            "V3": 42.0
+        },
+        "Prompt 9 (reasoning)": {
+            "V1": 91.35,
+            "V2": 83.25,
+            "V3": 87.25
+        },
+        "Prompt 10 (classification)": {
+            "V1": 86.25,
+            "V2": 32.0,
+            "V3": 83.75
+        },
+        "Prompt 10 (logical)": {
+            "V1": 88.25,
+            "V2": 76.75,
+            "V3": 87.35
+        },
+        "Prompt 10 (qna)": {
+            "V1": 83.5,
+            "V2": 88.25,
+            "V3": 58.0
+        },
+        "Prompt 10 (reasoning)": {
+            "V1": 85.75,
+            "V2": 90.75,
+            "V3": 93.65
+        }
+    },
+    {
+        "Drift_Level": 4,
+        "Prompt 1 (classification)": {
+            "V1": 28.75,
+            "V2": 25.75,
+            "V3": 45.0
+        },
+        "Prompt 1 (logical)": {
+            "V1": 70.75,
+            "V2": 55.75,
+            "V3": 59.5
+        },
+        "Prompt 1 (qna)": {
+            "V1": 85.0,
+            "V2": 91.8,
+            "V3": 49.25
+        },
+        "Prompt 1 (reasoning)": {
+            "V1": 87.35,
+            "V2": 90.1,
+            "V3": 88.8
+        },
+        "Prompt 2 (classification)": {
+            "V1": 73.5,
+            "V2": 95.0,
+            "V3": 95.0
+        },
+        "Prompt 2 (logical)": {
+            "V1": 94.65,
+            "V2": 95.25,
+            "V3": 95.0
+        },
+        "Prompt 2 (qna)": {
+            "V1": 91.2,
+            "V2": 91.75,
+            "V3": 57.5
+        },
+        "Prompt 2 (reasoning)": {
+            "V1": 82.5,
+            "V2": 93.0,
+            "V3": 89.2
+        },
+        "Prompt 3 (classification)": {
+            "V1": 93.25,
+            "V2": 95.0,
+            "V3": 95.0
+        },
+        "Prompt 3 (logical)": {
+            "V1": 80.75,
+            "V2": 90.0,
+            "V3": 95.0
+        },
+        "Prompt 3 (qna)": {
+            "V1": 84.75,
+            "V2": 64.25,
+            "V3": 41.75
+        },
+        "Prompt 3 (reasoning)": {
+            "V1": 89.55,
+            "V2": 88.8,
+            "V3": 93.35
+        },
+        "Prompt 4 (classification)": {
+            "V1": 97.25,
+            "V2": 95.0,
+            "V3": 96.85
+        },
+        "Prompt 4 (logical)": {
+            "V1": 87.75,
+            "V2": 89.75,
+            "V3": 58.0
+        },
+        "Prompt 4 (qna)": {
+            "V1": 42.25,
+            "V2": 89.0,
+            "V3": 95.25
+        },
+        "Prompt 4 (reasoning)": {
+            "V1": 92.05,
+            "V2": 83.25,
+            "V3": 94.1
+        },
+        "Prompt 5 (classification)": {
+            "V1": 86.25,
+            "V2": 95.6,
+            "V3": 97.05
+        },
+        "Prompt 5 (logical)": {
+            "V1": 77.75,
+            "V2": 88.35,
+            "V3": 41.0
+        },
+        "Prompt 5 (qna)": {
+            "V1": 91.8,
+            "V2": 88.25,
+            "V3": 92.5
+        },
+        "Prompt 5 (reasoning)": {
+            "V1": 86.9,
+            "V2": 88.7,
+            "V3": 83.0
+        },
+        "Prompt 6 (classification)": {
+            "V1": 92.5,
+            "V2": 92.0,
+            "V3": 92.0
+        },
+        "Prompt 6 (logical)": {
+            "V1": 90.0,
+            "V2": 93.4,
+            "V3": 82.75
+        },
+        "Prompt 6 (qna)": {
+            "V1": 89.0,
+            "V2": 93.75,
+            "V3": 48.25
+        },
+        "Prompt 6 (reasoning)": {
+            "V1": 84.25,
+            "V2": 87.1,
+            "V3": 88.25
+        },
+        "Prompt 7 (classification)": {
+            "V1": 74.75,
+            "V2": 89.0,
+            "V3": 88.25
+        },
+        "Prompt 7 (logical)": {
+            "V1": 42.75,
+            "V2": 90.45,
+            "V3": 89.75
+        },
+        "Prompt 7 (qna)": {
+            "V1": 51.75,
+            "V2": 91.0,
+            "V3": 85.0
+        },
+        "Prompt 7 (reasoning)": {
+            "V1": 91.35,
+            "V2": 82.5,
+            "V3": 88.15
+        },
+        "Prompt 8 (classification)": {
+            "V1": 86.3,
+            "V2": 67.25,
+            "V3": 95.75
+        },
+        "Prompt 8 (logical)": {
+            "V1": 94.25,
+            "V2": 93.2,
+            "V3": 53.5
+        },
+        "Prompt 8 (qna)": {
+            "V1": 52.75,
+            "V2": 74.0,
+            "V3": 83.5
+        },
+        "Prompt 8 (reasoning)": {
+            "V1": 84.25,
+            "V2": 86.9,
+            "V3": 54.25
+        },
+        "Prompt 9 (classification)": {
+            "V1": 88.25,
+            "V2": 93.75,
+            "V3": 93.5
+        },
+        "Prompt 9 (logical)": {
+            "V1": 85.75,
+            "V2": 91.5,
+            "V3": 93.1
+        },
+        "Prompt 9 (qna)": {
+            "V1": 83.55,
+            "V2": 41.25,
+            "V3": 39.5
+        },
+        "Prompt 9 (reasoning)": {
+            "V1": 88.1,
+            "V2": 63.0,
+            "V3": 88.2
+        },
+        "Prompt 10 (classification)": {
+            "V1": 91.75,
+            "V2": 93.75,
+            "V3": 95.5
+        },
+        "Prompt 10 (logical)": {
+            "V1": 73.75,
+            "V2": 59.25,
+            "V3": 84.5
+        },
+        "Prompt 10 (qna)": {
+            "V1": 87.7,
+            "V2": 54.25,
+            "V3": 87.15
+        },
+        "Prompt 10 (reasoning)": {
+            "V1": 93.0,
+            "V2": 93.1,
+            "V3": 90.0
+        }
+    },
+    {
+        "Drift_Level": 5,
+        "Prompt 1 (classification)": {
+            "V1": 67.75,
+            "V2": 27.25,
+            "V3": 65.25
+        },
+        "Prompt 1 (logical)": {
+            "V1": 82.25,
+            "V2": 62.0,
+            "V3": 60.75
+        },
+        "Prompt 1 (qna)": {
+            "V1": 90.75,
+            "V2": 93.25,
+            "V3": 93.25
+        },
+        "Prompt 1 (reasoning)": {
+            "V1": 68.5,
+            "V2": 70.15,
+            "V3": 76.5
+        },
+        "Prompt 2 (classification)": {
+            "V1": 77.25,
+            "V2": 86.25,
+            "V3": 68.0
+        },
+        "Prompt 2 (logical)": {
+            "V1": 41.25,
+            "V2": 77.25,
+            "V3": 52.75
+        },
+        "Prompt 2 (qna)": {
+            "V1": 90.0,
+            "V2": 89.0,
+            "V3": 38.25
+        },
+        "Prompt 2 (reasoning)": {
+            "V1": 93.1,
+            "V2": 83.0,
+            "V3": 82.5
+        },
+        "Prompt 3 (classification)": {
+            "V1": 25.75,
+            "V2": 31.25,
+            "V3": 52.25
+        },
+        "Prompt 3 (logical)": {
+            "V1": 49.25,
+            "V2": 44.75,
+            "V3": 48.5
+        },
+        "Prompt 3 (qna)": {
+            "V1": 61.5,
+            "V2": 38.75,
+            "V3": 91.8
+        },
+        "Prompt 3 (reasoning)": {
+            "V1": 85.75,
+            "V2": 78.5,
+            "V3": 70.5
+        },
+        "Prompt 4 (classification)": {
+            "V1": 26.75,
+            "V2": 47.75,
+            "V3": 71.0
+        },
+        "Prompt 4 (logical)": {
+            "V1": 55.5,
+            "V2": 53.25,
+            "V3": 42.0
+        },
+        "Prompt 4 (qna)": {
+            "V1": 54.75,
+            "V2": 91.35,
+            "V3": 87.0
+        },
+        "Prompt 4 (reasoning)": {
+            "V1": 62.5,
+            "V2": 56.25,
+            "V3": 72.0
+        },
+        "Prompt 5 (classification)": {
+            "V1": 24.25,
+            "V2": 65.75,
+            "V3": 21.0
+        },
+        "Prompt 5 (logical)": {
+            "V1": 58.25,
+            "V2": 55.75,
+            "V3": 81.0
+        },
+        "Prompt 5 (qna)": {
+            "V1": 91.2,
+            "V2": 89.0,
+            "V3": 89.4
+        },
+        "Prompt 5 (reasoning)": {
+            "V1": 77.0,
+            "V2": 64.25,
+            "V3": 88.4
+        },
+        "Prompt 6 (classification)": {
+            "V1": 51.75,
+            "V2": 75.25,
+            "V3": 65.25
+        },
+        "Prompt 6 (logical)": {
+            "V1": 65.75,
+            "V2": 63.5,
+            "V3": 67.5
+        },
+        "Prompt 6 (qna)": {
+            "V1": 63.25,
+            "V2": 83.5,
+            "V3": 91.8
+        },
+        "Prompt 6 (reasoning)": {
+            "V1": 79.0,
+            "V2": 64.5,
+            "V3": 83.75
+        },
+        "Prompt 7 (classification)": {
+            "V1": 85.0,
+            "V2": 83.0,
+            "V3": 93.75
+        },
+        "Prompt 7 (logical)": {
+            "V1": 46.0,
+            "V2": 48.25,
+            "V3": 59.0
+        },
+        "Prompt 7 (qna)": {
+            "V1": 83.5,
+            "V2": 90.75,
+            "V3": 94.85
+        },
+        "Prompt 7 (reasoning)": {
+            "V1": 88.6,
+            "V2": 81.0,
+            "V3": 82.25
+        },
+        "Prompt 8 (classification)": {
+            "V1": 36.5,
+            "V2": 49.25,
+            "V3": 91.7
+        },
+        "Prompt 8 (logical)": {
+            "V1": 60.75,
+            "V2": 65.0,
+            "V3": 33.75
+        },
+        "Prompt 8 (qna)": {
+            "V1": 91.2,
+            "V2": 84.75,
+            "V3": 70.1
+        },
+        "Prompt 8 (reasoning)": {
+            "V1": 58.75,
+            "V2": 66.0,
+            "V3": 53.75
+        },
+        "Prompt 9 (classification)": {
+            "V1": 47.25,
+            "V2": 50.75,
+            "V3": 65.25
+        },
+        "Prompt 9 (logical)": {
+            "V1": 59.5,
+            "V2": 58.25,
+            "V3": 82.25
+        },
+        "Prompt 9 (qna)": {
+            "V1": 45.25,
+            "V2": 37.25,
+            "V3": 37.0
+        },
+        "Prompt 9 (reasoning)": {
+            "V1": 40.25,
+            "V2": 67.5,
+            "V3": 57.5
+        },
+        "Prompt 10 (classification)": {
+            "V1": 65.75,
+            "V2": 25.75,
+            "V3": 52.5
+        },
+        "Prompt 10 (logical)": {
+            "V1": 60.5,
+            "V2": 84.5,
+            "V3": 87.35
+        },
+        "Prompt 10 (qna)": {
+            "V1": 50.5,
+            "V2": 89.4,
+            "V3": 83.5
+        },
+        "Prompt 10 (reasoning)": {
+            "V1": 47.0,
+            "V2": 82.5,
+            "V3": 84.25
+        }
+    }
+]
