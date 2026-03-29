@@ -1,0 +1,317 @@
+[
+    {
+        "Drift_Level": 1,
+        "Scores": {
+            "Prompt 1 (classification)": 0.9912,
+            "Prompt 1 (logical)": 1.0372,
+            "Prompt 1 (qna)": 0.9762,
+            "Prompt 1 (reasoning)": 0.9401,
+            "Prompt 2 (classification)": 0.9691,
+            "Prompt 2 (logical)": 1.0,
+            "Prompt 2 (qna)": 1.0287,
+            "Prompt 2 (reasoning)": 0.9535,
+            "Prompt 3 (classification)": 1.007,
+            "Prompt 3 (logical)": 1.0936,
+            "Prompt 3 (qna)": 1.072,
+            "Prompt 3 (reasoning)": 1.0407,
+            "Prompt 4 (classification)": 1.0158,
+            "Prompt 4 (logical)": 1.0917,
+            "Prompt 4 (qna)": 0.9621,
+            "Prompt 4 (reasoning)": 0.9963,
+            "Prompt 5 (classification)": 1.1369,
+            "Prompt 5 (logical)": 0.9158,
+            "Prompt 5 (qna)": 0.9779,
+            "Prompt 5 (reasoning)": 0.9017,
+            "Prompt 6 (classification)": 1.0153,
+            "Prompt 6 (logical)": 0.9782,
+            "Prompt 6 (qna)": 0.9773,
+            "Prompt 6 (reasoning)": 0.9825,
+            "Prompt 7 (classification)": 0.9486,
+            "Prompt 7 (logical)": 1.0814,
+            "Prompt 7 (qna)": 0.9678,
+            "Prompt 7 (reasoning)": 1.0526,
+            "Prompt 8 (classification)": 0.9556,
+            "Prompt 8 (logical)": 1.0,
+            "Prompt 8 (qna)": 0.915,
+            "Prompt 8 (reasoning)": 0.9383,
+            "Prompt 9 (classification)": 0.9953,
+            "Prompt 9 (logical)": 0.9333,
+            "Prompt 9 (qna)": 0.9966,
+            "Prompt 9 (reasoning)": 0.9816,
+            "Prompt 10 (classification)": 0.8775,
+            "Prompt 10 (logical)": 1.0213,
+            "Prompt 10 (qna)": 1.0182,
+            "Prompt 10 (reasoning)": 0.9558
+        },
+        "Category_Stats": {
+            "classification": {
+                "Mean": 0.9912,
+                "Variance": "0.44%"
+            },
+            "logical": {
+                "Mean": 1.0152,
+                "Variance": "0.39%"
+            },
+            "qna": {
+                "Mean": 0.9892,
+                "Variance": "0.18%"
+            },
+            "reasoning": {
+                "Mean": 0.9743,
+                "Variance": "0.22%"
+            }
+        }
+    },
+    {
+        "Drift_Level": 2,
+        "Scores": {
+            "Prompt 1 (classification)": 1.0137,
+            "Prompt 1 (logical)": 1.0615,
+            "Prompt 1 (qna)": 0.9702,
+            "Prompt 1 (reasoning)": 1.0112,
+            "Prompt 2 (classification)": 0.9513,
+            "Prompt 2 (logical)": 0.935,
+            "Prompt 2 (qna)": 0.992,
+            "Prompt 2 (reasoning)": 0.9079,
+            "Prompt 3 (classification)": 1.0175,
+            "Prompt 3 (logical)": 0.8645,
+            "Prompt 3 (qna)": 1.0786,
+            "Prompt 3 (reasoning)": 1.0093,
+            "Prompt 4 (classification)": 0.9712,
+            "Prompt 4 (logical)": 0.6954,
+            "Prompt 4 (qna)": 0.9975,
+            "Prompt 4 (reasoning)": 1.0525,
+            "Prompt 5 (classification)": 1.0784,
+            "Prompt 5 (logical)": 0.9142,
+            "Prompt 5 (qna)": 0.9654,
+            "Prompt 5 (reasoning)": 0.9042,
+            "Prompt 6 (classification)": 0.9918,
+            "Prompt 6 (logical)": 0.9452,
+            "Prompt 6 (qna)": 0.9569,
+            "Prompt 6 (reasoning)": 0.9431,
+            "Prompt 7 (classification)": 1.0368,
+            "Prompt 7 (logical)": 1.0863,
+            "Prompt 7 (qna)": 0.9797,
+            "Prompt 7 (reasoning)": 1.077,
+            "Prompt 8 (classification)": 0.9443,
+            "Prompt 8 (logical)": 0.9408,
+            "Prompt 8 (qna)": 0.8434,
+            "Prompt 8 (reasoning)": 0.83,
+            "Prompt 9 (classification)": 0.9619,
+            "Prompt 9 (logical)": 0.986,
+            "Prompt 9 (qna)": 0.4691,
+            "Prompt 9 (reasoning)": 0.8969,
+            "Prompt 10 (classification)": 0.8608,
+            "Prompt 10 (logical)": 1.0407,
+            "Prompt 10 (qna)": 0.9445,
+            "Prompt 10 (reasoning)": 0.9982
+        },
+        "Category_Stats": {
+            "classification": {
+                "Mean": 0.9828,
+                "Variance": "0.36%"
+            },
+            "logical": {
+                "Mean": 0.947,
+                "Variance": "1.27%"
+            },
+            "qna": {
+                "Mean": 0.9197,
+                "Variance": "2.84%"
+            },
+            "reasoning": {
+                "Mean": 0.963,
+                "Variance": "0.62%"
+            }
+        }
+    },
+    {
+        "Drift_Level": 3,
+        "Scores": {
+            "Prompt 1 (classification)": 0.7763,
+            "Prompt 1 (logical)": 0.986,
+            "Prompt 1 (qna)": 0.9889,
+            "Prompt 1 (reasoning)": 0.9521,
+            "Prompt 2 (classification)": 0.9774,
+            "Prompt 2 (logical)": 1.0,
+            "Prompt 2 (qna)": 0.9991,
+            "Prompt 2 (reasoning)": 0.9281,
+            "Prompt 3 (classification)": 0.9975,
+            "Prompt 3 (logical)": 0.8977,
+            "Prompt 3 (qna)": 1.0524,
+            "Prompt 3 (reasoning)": 1.0019,
+            "Prompt 4 (classification)": 0.7442,
+            "Prompt 4 (logical)": 0.6824,
+            "Prompt 4 (qna)": 0.9817,
+            "Prompt 4 (reasoning)": 0.9982,
+            "Prompt 5 (classification)": 1.129,
+            "Prompt 5 (logical)": 0.905,
+            "Prompt 5 (qna)": 0.8414,
+            "Prompt 5 (reasoning)": 0.9183,
+            "Prompt 6 (classification)": 0.9193,
+            "Prompt 6 (logical)": 0.9617,
+            "Prompt 6 (qna)": 0.8248,
+            "Prompt 6 (reasoning)": 0.9239,
+            "Prompt 7 (classification)": 0.9513,
+            "Prompt 7 (logical)": 0.9833,
+            "Prompt 7 (qna)": 0.8219,
+            "Prompt 7 (reasoning)": 1.0789,
+            "Prompt 8 (classification)": 0.7476,
+            "Prompt 8 (logical)": 0.9225,
+            "Prompt 8 (qna)": 0.9212,
+            "Prompt 8 (reasoning)": 0.7817,
+            "Prompt 9 (classification)": 0.9309,
+            "Prompt 9 (logical)": 0.8123,
+            "Prompt 9 (qna)": 0.5223,
+            "Prompt 9 (reasoning)": 0.9153,
+            "Prompt 10 (classification)": 0.3333,
+            "Prompt 10 (logical)": 1.0194,
+            "Prompt 10 (qna)": 0.8672,
+            "Prompt 10 (reasoning)": 0.9982
+        },
+        "Category_Stats": {
+            "classification": {
+                "Mean": 0.8507,
+                "Variance": "4.79%"
+            },
+            "logical": {
+                "Mean": 0.917,
+                "Variance": "1.06%"
+            },
+            "qna": {
+                "Mean": 0.8821,
+                "Variance": "2.26%"
+            },
+            "reasoning": {
+                "Mean": 0.9497,
+                "Variance": "0.62%"
+            }
+        }
+    },
+    {
+        "Drift_Level": 4,
+        "Scores": {
+            "Prompt 1 (classification)": 0.6105,
+            "Prompt 1 (logical)": 0.6862,
+            "Prompt 1 (qna)": 0.9245,
+            "Prompt 1 (reasoning)": 0.9521,
+            "Prompt 2 (classification)": 0.7968,
+            "Prompt 2 (logical)": 0.9175,
+            "Prompt 2 (qna)": 1.027,
+            "Prompt 2 (reasoning)": 0.9596,
+            "Prompt 3 (classification)": 0.9753,
+            "Prompt 3 (logical)": 1.1442,
+            "Prompt 3 (qna)": 0.7061,
+            "Prompt 3 (reasoning)": 1.0037,
+            "Prompt 4 (classification)": 0.96,
+            "Prompt 4 (logical)": 0.9278,
+            "Prompt 4 (qna)": 0.8488,
+            "Prompt 4 (reasoning)": 1.0055,
+            "Prompt 5 (classification)": 1.0437,
+            "Prompt 5 (logical)": 0.685,
+            "Prompt 5 (qna)": 0.9496,
+            "Prompt 5 (reasoning)": 0.9033,
+            "Prompt 6 (classification)": 0.9451,
+            "Prompt 6 (logical)": 0.9634,
+            "Prompt 6 (qna)": 0.8593,
+            "Prompt 6 (reasoning)": 1.0201,
+            "Prompt 7 (classification)": 0.9167,
+            "Prompt 7 (logical)": 0.9843,
+            "Prompt 7 (qna)": 0.7884,
+            "Prompt 7 (reasoning)": 1.0117,
+            "Prompt 8 (classification)": 0.7929,
+            "Prompt 8 (logical)": 0.9725,
+            "Prompt 8 (qna)": 0.6961,
+            "Prompt 8 (reasoning)": 0.77,
+            "Prompt 9 (classification)": 0.9528,
+            "Prompt 9 (logical)": 0.9491,
+            "Prompt 9 (qna)": 0.6777,
+            "Prompt 9 (reasoning)": 0.9374,
+            "Prompt 10 (classification)": 0.7675,
+            "Prompt 10 (logical)": 0.9463,
+            "Prompt 10 (qna)": 0.8248,
+            "Prompt 10 (reasoning)": 1.0193
+        },
+        "Category_Stats": {
+            "classification": {
+                "Mean": 0.8761,
+                "Variance": "1.70%"
+            },
+            "logical": {
+                "Mean": 0.9176,
+                "Variance": "1.89%"
+            },
+            "qna": {
+                "Mean": 0.8302,
+                "Variance": "1.35%"
+            },
+            "reasoning": {
+                "Mean": 0.9583,
+                "Variance": "0.60%"
+            }
+        }
+    },
+    {
+        "Drift_Level": 5,
+        "Scores": {
+            "Prompt 1 (classification)": 0.7763,
+            "Prompt 1 (logical)": 0.7114,
+            "Prompt 1 (qna)": 0.9574,
+            "Prompt 1 (reasoning)": 0.6206,
+            "Prompt 2 (classification)": 0.8769,
+            "Prompt 2 (logical)": 0.5842,
+            "Prompt 2 (qna)": 0.8687,
+            "Prompt 2 (reasoning)": 0.8719,
+            "Prompt 3 (classification)": 0.4982,
+            "Prompt 3 (logical)": 0.7622,
+            "Prompt 3 (qna)": 0.8108,
+            "Prompt 3 (reasoning)": 0.9352,
+            "Prompt 4 (classification)": 0.5377,
+            "Prompt 4 (logical)": 0.4241,
+            "Prompt 4 (qna)": 0.8532,
+            "Prompt 4 (reasoning)": 0.6924,
+            "Prompt 5 (classification)": 0.5407,
+            "Prompt 5 (logical)": 0.95,
+            "Prompt 5 (qna)": 0.9702,
+            "Prompt 5 (reasoning)": 0.7308,
+            "Prompt 6 (classification)": 0.5219,
+            "Prompt 6 (logical)": 0.6867,
+            "Prompt 6 (qna)": 0.7956,
+            "Prompt 6 (reasoning)": 0.8723,
+            "Prompt 7 (classification)": 0.7495,
+            "Prompt 7 (logical)": 0.651,
+            "Prompt 7 (qna)": 0.8152,
+            "Prompt 7 (reasoning)": 1.0546,
+            "Prompt 8 (classification)": 0.6345,
+            "Prompt 8 (logical)": 0.7158,
+            "Prompt 8 (qna)": 0.6524,
+            "Prompt 8 (reasoning)": 0.6575,
+            "Prompt 9 (classification)": 0.5412,
+            "Prompt 9 (logical)": 0.6781,
+            "Prompt 9 (qna)": 0.4815,
+            "Prompt 9 (reasoning)": 0.7422,
+            "Prompt 10 (classification)": 0.2725,
+            "Prompt 10 (logical)": 0.9111,
+            "Prompt 10 (qna)": 0.8089,
+            "Prompt 10 (reasoning)": 0.6952
+        },
+        "Category_Stats": {
+            "classification": {
+                "Mean": 0.5949,
+                "Variance": "2.95%"
+            },
+            "logical": {
+                "Mean": 0.7075,
+                "Variance": "2.26%"
+            },
+            "qna": {
+                "Mean": 0.8014,
+                "Variance": "2.05%"
+            },
+            "reasoning": {
+                "Mean": 0.7873,
+                "Variance": "1.95%"
+            }
+        }
+    }
+]

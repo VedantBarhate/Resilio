@@ -2701,9 +2701,9 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 70,
-            "logical_correctness": 65,
-            "reasoning_coherence": 70,
+            "factual_correctness": 90,
+            "logical_correctness": 85,
+            "reasoning_coherence": 80,
             "sentiment_label_correctness": 100,
             "manner_of_language": 80
         }

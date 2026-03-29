@@ -13,9 +13,9 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 40,
-            "logical_correctness": 35,
-            "reasoning_coherence": 45,
+            "factual_correctness": 80,
+            "logical_correctness": 95,
+            "reasoning_coherence": 85,
             "sentiment_label_correctness": 100,
             "manner_of_language": 80
         }
@@ -2029,9 +2029,9 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 40,
-            "logical_correctness": 70,
-            "reasoning_coherence": 70,
+            "factual_correctness": 90,
+            "logical_correctness": 80,
+            "reasoning_coherence": 85,
             "sentiment_label_correctness": 100,
             "manner_of_language": 90
         }
@@ -2365,10 +2365,10 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 40,
-            "logical_correctness": 45,
-            "reasoning_coherence": 50,
-            "sentiment_label_correctness": 0,
+            "factual_correctness": 90,
+            "logical_correctness": 85,
+            "reasoning_coherence": 90,
+            "sentiment_label_correctness": 80,
             "manner_of_language": 80
         }
     },

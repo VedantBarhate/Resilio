@@ -2029,11 +2029,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 40,
-            "logical_correctness": 40,
-            "reasoning_coherence": 50,
-            "sentiment_label_correctness": 0,
-            "manner_of_language": 70
+            "factual_correctness": 100,
+            "logical_correctness": 95,
+            "reasoning_coherence": 90,
+            "sentiment_label_correctness": 90,
+            "manner_of_language": 90
         }
     },
     {
@@ -2368,7 +2368,7 @@
             "factual_correctness": 100,
             "logical_correctness": 100,
             "reasoning_coherence": 100,
-            "sentiment_label_correctness": 0,
+            "sentiment_label_correctness": 90,
             "manner_of_language": 100
         }
     },

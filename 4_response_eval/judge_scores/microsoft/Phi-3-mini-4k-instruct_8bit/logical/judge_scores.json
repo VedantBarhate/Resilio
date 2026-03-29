@@ -687,7 +687,7 @@
         "scores": {
             "factual_correctness": 90,
             "logical_correctness": 90,
-            "reasoning_coherence": 70,
+            "reasoning_coherence": 85,
             "sentiment_label_correctness": 100,
             "manner_of_language": 80
         }
@@ -1022,8 +1022,8 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 90,
-            "logical_correctness": 90,
-            "reasoning_coherence": 80,
+            "logical_correctness": 95,
+            "reasoning_coherence": 85,
             "sentiment_label_correctness": 100,
             "manner_of_language": 70
         }
@@ -1693,11 +1693,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 90,
+            "factual_correctness": 95,
             "logical_correctness": 85,
-            "reasoning_coherence": 80,
+            "reasoning_coherence": 85,
             "sentiment_label_correctness": 90,
-            "manner_of_language": 80
+            "manner_of_language": 90
         }
     },
     {
@@ -2366,9 +2366,9 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 90,
-            "logical_correctness": 90,
+            "logical_correctness": 95,
             "reasoning_coherence": 85,
-            "sentiment_label_correctness": 0,
+            "sentiment_label_correctness": 95,
             "manner_of_language": 80
         }
     },
@@ -3038,7 +3038,7 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 90,
-            "logical_correctness": 90,
+            "logical_correctness": 95,
             "reasoning_coherence": 90,
             "sentiment_label_correctness": 100,
             "manner_of_language": 85

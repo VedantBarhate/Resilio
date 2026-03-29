@@ -1022,8 +1022,8 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 80,
-            "logical_correctness": 60,
-            "reasoning_coherence": 70,
+            "logical_correctness": 95,
+            "reasoning_coherence": 90,
             "sentiment_label_correctness": 90,
             "manner_of_language": 90
         }
@@ -3038,7 +3038,7 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 85,
-            "logical_correctness": 85,
+            "logical_correctness": 95,
             "reasoning_coherence": 85,
             "sentiment_label_correctness": 90,
             "manner_of_language": 90

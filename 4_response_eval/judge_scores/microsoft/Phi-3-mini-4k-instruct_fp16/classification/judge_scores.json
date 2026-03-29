@@ -352,7 +352,7 @@
             "factual_correctness": 90,
             "logical_correctness": 90,
             "reasoning_coherence": 70,
-            "sentiment_label_correctness": 0,
+            "sentiment_label_correctness": 85,
             "manner_of_language": 80
         }
     },
@@ -1024,7 +1024,7 @@
             "factual_correctness": 100,
             "logical_correctness": 90,
             "reasoning_coherence": 80,
-            "sentiment_label_correctness": 0,
+            "sentiment_label_correctness": 70,
             "manner_of_language": 70
         }
     },
@@ -1694,10 +1694,10 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 80,
-            "logical_correctness": 70,
-            "reasoning_coherence": 50,
+            "logical_correctness": 95,
+            "reasoning_coherence": 90,
             "sentiment_label_correctness": 80,
-            "manner_of_language": 70
+            "manner_of_language": 85
         }
     },
     {
@@ -2029,11 +2029,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 45,
-            "logical_correctness": 50,
-            "reasoning_coherence": 40,
-            "sentiment_label_correctness": 0,
-            "manner_of_language": 60
+            "factual_correctness": 95,
+            "logical_correctness": 80,
+            "reasoning_coherence": 95,
+            "sentiment_label_correctness": 80,
+            "manner_of_language": 85 
         }
     },
     {
@@ -3040,7 +3040,7 @@
             "factual_correctness": 95,
             "logical_correctness": 95,
             "reasoning_coherence": 90,
-            "sentiment_label_correctness": 0,
+            "sentiment_label_correctness": 100,
             "manner_of_language": 80
         }
     },

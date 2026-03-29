@@ -349,11 +349,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 30,
-            "logical_correctness": 20,
-            "reasoning_coherence": 25,
-            "sentiment_label_correctness": 0,
-            "manner_of_language": 50
+            "factual_correctness": 90,
+            "logical_correctness": 80,
+            "reasoning_coherence": 75,
+            "sentiment_label_correctness": 80,
+            "manner_of_language": 80
         }
     },
     {
@@ -685,11 +685,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 30,
-            "logical_correctness": 20,
-            "reasoning_coherence": 40,
-            "sentiment_label_correctness": 50,
-            "manner_of_language": 60
+            "factual_correctness": 90,
+            "logical_correctness": 80,
+            "reasoning_coherence": 85,
+            "sentiment_label_correctness": 85,
+            "manner_of_language": 90
         }
     },
     {

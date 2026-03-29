@@ -685,11 +685,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 30,
-            "logical_correctness": 20,
-            "reasoning_coherence": 15,
+            "factual_correctness": 90,
+            "logical_correctness": 85,
+            "reasoning_coherence": 75,
             "sentiment_label_correctness": 50,
-            "manner_of_language": 40
+            "manner_of_language": 80
         }
     },
     {
@@ -1695,7 +1695,7 @@
         "scores": {
             "factual_correctness": 85,
             "logical_correctness": 80,
-            "reasoning_coherence": 75,
+            "reasoning_coherence": 95,
             "sentiment_label_correctness": 90,
             "manner_of_language": 80
         }
@@ -2365,11 +2365,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 30,
-            "logical_correctness": 20,
-            "reasoning_coherence": 25,
-            "sentiment_label_correctness": 0,
-            "manner_of_language": 50
+            "factual_correctness": 90,
+            "logical_correctness": 80,
+            "reasoning_coherence": 75,
+            "sentiment_label_correctness": 80,
+            "manner_of_language": 80
         }
     },
     {
@@ -2701,11 +2701,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 70,
-            "logical_correctness": 70,
-            "reasoning_coherence": 50,
-            "sentiment_label_correctness": 0,
-            "manner_of_language": 50
+            "factual_correctness": 90,
+            "logical_correctness": 75,
+            "reasoning_coherence": 70,
+            "sentiment_label_correctness": 80,
+            "manner_of_language": 85
         }
     },
     {
@@ -3037,8 +3037,8 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 80,
-            "logical_correctness": 80,
+            "factual_correctness": 90,
+            "logical_correctness": 90,
             "reasoning_coherence": 70,
             "sentiment_label_correctness": 80,
             "manner_of_language": 70

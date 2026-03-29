@@ -14,8 +14,8 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 85,
-            "logical_correctness": 80,
-            "reasoning_coherence": 75,
+            "logical_correctness": 90,
+            "reasoning_coherence": 95,
             "sentiment_label_correctness": 100,
             "manner_of_language": 80
         }
@@ -349,8 +349,8 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 85,
-            "logical_correctness": 80,
+            "factual_correctness": 95,
+            "logical_correctness": 90,
             "reasoning_coherence": 75,
             "sentiment_label_correctness": 80,
             "manner_of_language": 70
@@ -1022,7 +1022,7 @@
         "response_similarity": 100.0,
         "scores": {
             "factual_correctness": 85,
-            "logical_correctness": 80,
+            "logical_correctness": 90,
             "reasoning_coherence": 75,
             "sentiment_label_correctness": 90,
             "manner_of_language": 80
@@ -1695,7 +1695,7 @@
         "scores": {
             "factual_correctness": 90,
             "logical_correctness": 85,
-            "reasoning_coherence": 80,
+            "reasoning_coherence": 90,
             "sentiment_label_correctness": 90,
             "manner_of_language": 80
         }
@@ -2029,11 +2029,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 70,
-            "logical_correctness": 55,
-            "reasoning_coherence": 45,
-            "sentiment_label_correctness": 50,
-            "manner_of_language": 60
+            "factual_correctness": 90,
+            "logical_correctness": 95,
+            "reasoning_coherence": 85,
+            "sentiment_label_correctness": 70,
+            "manner_of_language": 80
         }
     },
     {
@@ -2365,11 +2365,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 60,
-            "logical_correctness": 70,
-            "reasoning_coherence": 65,
-            "sentiment_label_correctness": 70,
-            "manner_of_language": 65
+            "factual_correctness": 90,
+            "logical_correctness": 90,
+            "reasoning_coherence": 85,
+            "sentiment_label_correctness": 80,
+            "manner_of_language": 75
         }
     },
     {
@@ -2701,9 +2701,9 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 70,
-            "logical_correctness": 70,
-            "reasoning_coherence": 60,
+            "factual_correctness": 95,
+            "logical_correctness": 95,
+            "reasoning_coherence": 90,
             "sentiment_label_correctness": 80,
             "manner_of_language": 60
         }
@@ -3037,11 +3037,11 @@
         "prompt_similarity": 100.0,
         "response_similarity": 100.0,
         "scores": {
-            "factual_correctness": 70,
-            "logical_correctness": 70,
-            "reasoning_coherence": 60,
+            "factual_correctness": 95,
+            "logical_correctness": 80,
+            "reasoning_coherence": 90,
             "sentiment_label_correctness": 80,
-            "manner_of_language": 70
+            "manner_of_language": 75
         }
     },
     {
