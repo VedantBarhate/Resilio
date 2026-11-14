@@ -1,0 +1,4 @@
+[
+  {"id":"qa-001","task":"qa","input":"What is the capital of France?","expected_output":"Paris"},
+  {"id":"class-001","task":"classification","input":"Classify this business model: a company sells software subscriptions to enterprises.","expected_label":"B2B"}
+]
