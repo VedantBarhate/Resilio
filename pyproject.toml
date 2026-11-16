@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilio-eval"
+version = "0.1.0"
+description = "A toolkit for evaluating LLM task robustness under controlled prompt perturbations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Resilio Contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.7", "numpy>=1.24"]
+transformers = ["transformers>=4.40", "torch>=2.1", "accelerate>=0.29"]
+openai = ["openai>=1.30"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+all = ["sentence-transformers>=2.7", "numpy>=1.24", "transformers>=4.40", "torch>=2.1", "accelerate>=0.29", "openai>=1.30"]
+
+[project.scripts]
+resilio = "resilio_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
